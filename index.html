@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="icon" href="data:," />
+  <title>NEW-BTI</title>
+  <meta name="title" content="NEW-BTI" />
+  <meta name="application-name" content="NEW-BTI" />
+  <meta property="og:title" content="NEW-BTI" />
+  <meta property="og:site_name" content="NEW-BTI" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="NEW-BTI" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f5f6f2;
+      --surface: #ffffff;
+      --surface-2: #ebece6;
+      --ink: #171813;
+      --muted: #6f7169;
+      --line: #d9dbd2;
+      --accent: #ff633f;
+      --accent-soft: #ffe2da;
+      --accent-ink: #7d220d;
+      --green: #225c45;
+      --blue: #326886;
+      --result-main-bg: #eadfd5;
+      --shadow: 0 16px 42px rgba(37, 39, 31, .08);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #151611;
+        --surface: #20211b;
+        --surface-2: #2a2c24;
+        --ink: #f3f4ed;
+        --muted: #afb1a7;
+        --line: #3a3c33;
+        --accent: #ff7657;
+        --accent-soft: #4a251c;
+        --accent-ink: #ffd7cc;
+        --green: #7bc8a7;
+        --blue: #82bddc;
+        --result-main-bg: #3b332d;
+        --shadow: 0 18px 48px rgba(0, 0, 0, .28);
+      }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-width: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: -.02em;
+    }
+    button { font: inherit; }
+    button:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+    .app { width: min(1120px, 100%); margin: 0 auto; padding: 20px 24px 48px; }
+    .topline { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 26px; }
+    .demo-label { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; font-weight: 700; }
+    .demo-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; min-width: min(250px, 45vw); }
+    .progress-track { height: 7px; flex: 1; overflow: hidden; border-radius: 99px; background: var(--surface-2); }
+    .progress-fill { width: 25%; height: 100%; border-radius: inherit; background: var(--accent); transition: width .3s ease; }
+    .progress-text { color: var(--muted); font-size: 13px; font-weight: 800; white-space: nowrap; }
+    .intro { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 22px; align-items: center; margin-bottom: 18px; }
+    .kicker { margin: 0 0 7px; color: var(--accent); font-size: 14px; font-weight: 800; }
+    h1 { margin: 0; max-width: 820px; font-size: clamp(32px, 4.4vw, 52px); line-height: 1.08; letter-spacing: -.055em; word-break: keep-all; text-wrap: balance; }
+    .intro-copy { margin: 11px 0 0; max-width: 720px; color: var(--muted); font-size: 15px; line-height: 1.55; word-break: keep-all; text-wrap: pretty; }
+    .selection-counter { width: 96px; aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: var(--bg); box-shadow: var(--shadow); }
+    .selection-counter span { display: block; text-align: center; font-size: 12px; font-weight: 700; opacity: .72; }
+    .selection-counter strong { display: block; margin-top: 2px; text-align: center; font-size: 29px; letter-spacing: -.05em; }
+    .category-tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 0 0 14px; padding: 5px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); }
+    .category-tab { border: 0; border-radius: 12px; padding: 12px 10px; background: transparent; color: var(--muted); cursor: pointer; font-weight: 800; transition: background .2s, color .2s; }
+    .category-tab.active { background: var(--ink); color: var(--bg); }
+    .topic-strip { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 18px; margin-bottom: 12px; }
+    .topic-copy { min-width: 0; }
+    .topic-title { margin: 0; font-size: 19px; letter-spacing: -.03em; text-wrap: balance; word-break: keep-all; }
+    .topic-description { margin: 5px 0 0; color: var(--muted); font-size: 13px; line-height: 1.5; text-wrap: pretty; word-break: keep-all; }
+    .topic-note { margin: 0; color: var(--muted); font-size: 13px; white-space: nowrap; }
+    .headline-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .headline-shell { position: relative; min-width: 0; }
+    .headline-card {
+      position: relative; width: 100%; height: 100%; min-height: 148px; display: flex; flex-direction: column; justify-content: space-between; padding: 18px;
+      border: 1px solid var(--line); border-radius: 20px; background: var(--surface); color: var(--ink); text-align: left; cursor: pointer;
+      transition: border-color .18s ease, background .18s ease, transform .18s ease, box-shadow .18s ease;
+    }
+    .headline-card:hover { border-color: var(--muted); transform: translateY(-2px); box-shadow: var(--shadow); }
+    .headline-card.selected { border-color: var(--accent); background: var(--accent-soft); box-shadow: 0 0 0 2px var(--accent); }
+    .card-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .source { color: var(--muted); font-size: 13px; font-weight: 700; }
+    .check { width: 27px; height: 27px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; background: var(--surface); color: transparent; flex: 0 0 auto; }
+    .selected .check { border-color: var(--accent); background: var(--accent); color: white; }
+    .headline { margin: 18px 0 0; font-size: clamp(18px, 2.25vw, 22px); line-height: 1.35; letter-spacing: -.035em; word-break: keep-all; overflow-wrap: normal; text-wrap: pretty; }
+    .action-row { position: sticky; bottom: 0; z-index: 5; display: flex; justify-content: flex-end; align-items: center; gap: 14px; margin-top: 14px; padding: 12px 0 max(12px, env(safe-area-inset-bottom)); background: linear-gradient(to bottom, transparent, var(--bg) 24%); }
+    .action-note { margin-right: auto; color: var(--muted); font-size: 13px; }
+    .primary, .secondary { border: 0; border-radius: 14px; cursor: pointer; font-weight: 800; }
+    .primary { min-width: 180px; padding: 15px 20px; background: var(--ink); color: var(--bg); }
+    .primary:disabled { opacity: .35; cursor: not-allowed; }
+    .secondary { padding: 12px 16px; background: var(--surface-2); color: var(--ink); }
+    .result { display: none; }
+    .result.show { display: block; }
+    .quiz.hidden { display: none; }
+    .result-hero { display: block; }
+    .result-main { min-height: 300px; padding: clamp(30px, 5vw, 50px); border-radius: 28px; background: var(--result-main-bg); color: var(--ink); display: flex; flex-direction: column; justify-content: center; }
+    .result-main .kicker { color: var(--accent-ink); font-size: 12px; }
+    .result-headline { margin: 10px 0 16px; max-width: 720px; font-size: clamp(17px, 2vw, 20px); font-weight: 600; line-height: 1.5; letter-spacing: -.03em; word-break: keep-all; }
+    .headline-context { display: block; }
+    .headline-highlight { display: block; margin: 5px 0 6px; color: var(--accent-ink); font-size: clamp(29px, 4vw, 44px); font-weight: 850; line-height: 1.2; letter-spacing: -.045em; }
+    .type-copy { margin: 0; max-width: 640px; color: var(--muted); font-size: 13px; line-height: 1.55; }
+    .radar-panel { margin-top: 18px; padding: 28px; border: 1px solid var(--line); border-radius: 26px; background: var(--surface); }
+    .section-heading { display: flex; justify-content: space-between; gap: 28px; align-items: end; margin-bottom: 12px; }
+    .section-heading h2 { margin: 0; font-size: 23px; }
+    .section-heading p { max-width: 470px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; text-align: right; }
+    .radar-wrap { max-width: 760px; margin: 0 auto; }
+    .radar-chart { display: block; width: 100%; height: auto; overflow: visible; }
+    .radar-grid { fill: none; stroke: var(--line); stroke-width: 1.5; }
+    .radar-axis { stroke: var(--line); stroke-width: 1; }
+    .radar-shape { fill: color-mix(in srgb, var(--accent) 22%, transparent); stroke: var(--accent); stroke-width: 4; stroke-linejoin: round; }
+    .radar-point { fill: var(--surface); stroke: var(--accent); stroke-width: 4; }
+    .radar-label { fill: var(--ink); font-size: 16px; font-weight: 800; }
+    .radar-value { fill: var(--accent-ink); font-size: 14px; font-weight: 900; paint-order: stroke; stroke: var(--surface); stroke-width: 5px; stroke-linejoin: round; }
+    .radar-note { margin: 4px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; text-align: center; }
+    .wording-panel { margin-top: 18px; padding: 28px; border-radius: 26px; background: var(--surface-2); }
+    .wording-panel h2 { margin: 0; font-size: 23px; }
+    .wording-intro { margin: 7px 0 22px; color: var(--muted); font-size: 14px; line-height: 1.55; }
+    .tag-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 18px; }
+    .wording-item { padding: 20px 0; border-top: 3px solid var(--ink); }
+    .wording-rank { display: block; margin-bottom: 8px; color: var(--accent); font-size: 12px; font-weight: 900; }
+    .wording-name { display: block; font-size: clamp(24px, 3vw, 34px); line-height: 1.15; letter-spacing: -.045em; }
+    .wording-desc { display: block; margin-top: 8px; color: var(--muted); font-size: 14px; line-height: 1.55; }
+    .insight { margin: 20px 0 0; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; line-height: 1.6; }
+    .source-panel { margin-top: 18px; padding: 28px; border-radius: 26px; background: var(--surface); border: 1px solid var(--line); }
+    .source-panel h2 { margin: 0; font-size: 23px; }
+    .source-panel > p { margin: 7px 0 20px; color: var(--muted); font-size: 13px; line-height: 1.5; }
+    .source-carousel-head { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; align-items: center; gap: 12px; margin-bottom: 14px; }
+    .source-category { min-width: 0; text-align: center; }
+    .source-category-label { display: block; color: var(--muted); font-size: 11px; font-weight: 800; }
+    .source-category-name { display: block; margin-top: 2px; font-size: 20px; font-weight: 850; letter-spacing: -.035em; }
+    .source-arrow { width: 44px; height: 44px; display: grid; place-items: center; padding: 0 0 3px; border: 1px solid var(--line); border-radius: 50%; background: var(--surface-2); color: var(--ink); font-size: 28px; line-height: 1; cursor: pointer; }
+    .source-arrow:hover { border-color: var(--muted); background: var(--accent-soft); }
+    .selected-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .selected-link { min-width: 0; display: flex; flex-direction: column; gap: 7px; padding: 16px; border-radius: 16px; background: var(--surface-2); color: var(--ink); text-decoration: none; }
+    .selected-link:hover { background: var(--accent-soft); }
+    .selected-link-meta { color: var(--muted); font-size: 11px; font-weight: 800; }
+    .selected-link-title { font-size: 15px; font-weight: 750; line-height: 1.45; word-break: keep-all; text-wrap: pretty; }
+    .selected-link-open { margin-top: auto; color: var(--accent-ink); font-size: 12px; font-weight: 850; }
+    .restart-row { display: flex; justify-content: flex-end; margin-top: 18px; }
+    .toast { position: fixed; left: 50%; bottom: calc(26px + env(safe-area-inset-bottom)); z-index: 20; transform: translate(-50%, 18px); padding: 12px 16px; border-radius: 12px; background: var(--ink); color: var(--bg); font-size: 13px; font-weight: 800; opacity: 0; pointer-events: none; transition: .2s ease; box-shadow: var(--shadow); }
+    .toast.show { opacity: 1; transform: translate(-50%, 0); }
+    @media (max-width: 720px) {
+      .app { padding: 16px 12px 36px; }
+      .topline { margin-bottom: 20px; }
+      .progress-wrap { min-width: 138px; }
+      .intro { grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: end; margin-bottom: 14px; }
+      .intro h1 { font-size: clamp(27px, 8vw, 36px); }
+      .intro-copy { margin-top: 8px; font-size: 13px; line-height: 1.45; }
+      .selection-counter { width: 70px; }
+      .selection-counter span { font-size: 10px; }
+      .selection-counter strong { font-size: 22px; }
+      .headline-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+      .headline-card { min-height: 158px; padding: 13px; border-radius: 15px; }
+      .headline { margin-top: 14px; font-size: 16px; line-height: 1.42; }
+      .source { font-size: 11px; }
+      .check { width: 23px; height: 23px; }
+      .category-tab { padding: 10px 4px; font-size: 13px; }
+      .topic-strip { grid-template-columns: 1fr; align-items: start; gap: 5px; }
+      .topic-title { font-size: 16px; }
+      .topic-description { margin-top: 4px; font-size: 12px; }
+      .topic-note { font-size: 11px; }
+      .action-row { padding-top: 16px; }
+      .action-note { display: none; }
+      .primary { width: 100%; }
+      .result-main, .radar-panel, .wording-panel, .source-panel { border-radius: 20px; }
+      .result-main { min-height: 260px; padding: 28px 22px; }
+      .result-headline { font-size: 17px; }
+      .headline-highlight { font-size: clamp(28px, 8vw, 36px); }
+      .radar-panel, .wording-panel, .source-panel { padding: 24px 16px; }
+      .section-heading { display: block; margin-bottom: 2px; }
+      .section-heading p { margin-top: 8px; text-align: left; }
+      .radar-label { font-size: 15px; }
+      .radar-value { font-size: 13px; }
+      .tag-list, .selected-links { grid-template-columns: 1fr; gap: 2px; }
+      .selected-link { margin-top: 8px; }
+      .selected-link-title { font-size: 14px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <section class="quiz" id="quiz">
+      <div class="topline">
+        <div class="demo-label"><span class="demo-dot"></span><span id="dataDate">실제 기사</span></div>
+        <div class="progress-wrap" aria-label="진행률">
+          <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+          <span class="progress-text" id="progressText">1 / 4</span>
+        </div>
+      </div>
+
+      <header class="intro">
+        <div>
+          <p class="kicker" id="categoryKicker">정치 · 제도와 변화</p>
+          <h1>어떤 제목에 시선이 가나요?</h1>
+          <p class="intro-copy">같은 분야의 다양한 제목입니다. 내용의 옳고 그름보다, 지금 읽고 싶은 두 개를 골라보세요.</p>
+        </div>
+        <div class="selection-counter" aria-live="polite">
+          <div><span>선택</span><strong id="selectionCount">0 / 2</strong></div>
+        </div>
+      </header>
+
+      <nav class="category-tabs" aria-label="뉴스 분야" id="categoryTabs"></nav>
+      <div class="topic-strip">
+        <div class="topic-copy">
+          <h2 class="topic-title" id="topicTitle"></h2>
+          <p class="topic-description" id="topicDescription"></p>
+        </div>
+        <p class="topic-note" id="headlineDate"></p>
+      </div>
+      <div class="headline-grid" id="headlineGrid"></div>
+      <div class="action-row">
+        <p class="action-note">제목의 분석 태그는 선택 후 결과에서 공개됩니다.</p>
+        <button class="primary" id="nextButton" disabled>다음 분야</button>
+      </div>
+    </section>
+
+    <section class="result" id="result" aria-live="polite">
+      <div class="topline">
+        <div class="demo-label"><span class="demo-dot"></span>오늘의 뉴스 취향</div>
+        <button class="secondary" id="restartTop">다시 선택</button>
+      </div>
+      <div class="result-hero">
+        <article class="result-main">
+          <p class="kicker">내가 좋아하는 뉴스 제목</p>
+          <h1 class="result-headline" id="resultHeadline"></h1>
+          <p class="type-copy" id="typeCopy"></p>
+        </article>
+      </div>
+      <section class="radar-panel">
+        <div class="section-heading">
+          <h2>나의 뉴스 제목 취향</h2>
+          <p>각 제목을 여섯 기준으로 분류해, 고른 8개 중 해당 특징이 나타난 비율을 계산했어요.</p>
+        </div>
+        <div class="radar-wrap" id="radarReport"></div>
+        <p class="radar-note">높을수록 해당 특징이 있는 제목을 더 많이 골랐다는 뜻이에요.</p>
+      </section>
+      <section class="wording-panel">
+        <h2>자주 고른 말투</h2>
+        <div class="tag-list" id="tagReport"></div>
+      </section>
+      <section class="source-panel">
+        <h2>내가 고른 기사 원문 보기</h2>
+        <p>분야를 넘겨보며 내가 고른 기사 두 개를 확인할 수 있어요.</p>
+        <div class="source-carousel-head">
+          <button class="source-arrow" id="sourcePrev" type="button" aria-label="이전 분야">‹</button>
+          <div class="source-category" id="sourceCategory" aria-live="polite"></div>
+          <button class="source-arrow" id="sourceNext" type="button" aria-label="다음 분야">›</button>
+        </div>
+        <div class="selected-links" id="selectedLinks"></div>
+      </section>
+      <div class="restart-row"><button class="secondary" id="restartBottom">처음부터 다시</button></div>
+    </section>
+  </main>
+  <div class="toast" id="toast" role="status">두 개까지 선택할 수 있어요</div>
+
+  <script>
+    const newsData = {"categories":[{"headlines":[{"link":"https://www.donga.com/news/Politics/article/all/20261021/134878515/2","main":"중립","source":"종합지형","tags":["단정형","담담형"],"text":"李, ‘3기 신도시’ 인천 계양지구 찾아 “신속 공급이 부동산 정책 성패 갈라”"},{"link":"https://www.khan.co.kr/article/202610202213025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news","main":"중립","source":"종합지형","tags":["수치형","책임형"],"text":"3기 신도시 찾은 이 대통령 “2030년까지 90% 착공해야”"},{"link":"https://news.sbs.co.kr/news/endPage.do?news_id=N1008806846&plink=RSSLINK&cooper=RSSREADER","main":"중립","source":"방송사형","tags":["개인형","단정형"],"text":"\"3기 신도시 공급, 부동산 정책 성패 좌우\""},{"link":"https://www.yna.co.kr/view/AKR20261020159651001","main":"중립","source":"통신사형","tags":["개인형","단정형"],"text":"李대통령, 아파트옥상 올라 3기 신도시 시찰…\"최대한 앞당겨야\"(종합)"}],"id":"politics","kicker":"정치 · 제도와 변화","short":"정치","topic":"3기 신도시 공급","topic_description":""},{"headlines":[{"link":"https://www.chosun.com/economy/economy_general/2026/10/21/MVRGIMRVGM3GINBZGBRGIMDBMY/","main":"중립","source":"종합지형","tags":["수치형","단정형"],"text":"9월 생산자물가 0.2% 상승… 두 달 연속 오름세"},{"link":"https://www.donga.com/news/Economy/article/all/20261021/134879384/1","main":"중립","source":"종합지형","tags":["수치형","단정형"],"text":"배추 42.9%·쇠고기 10.4%↑…생산자물가 두 달째 상승"},{"link":"https://www.yna.co.kr/view/AKR20261020160200002","main":"중립","source":"통신사형","tags":["수치형","단정형"],"text":"명절 농·축산물 가격 상승에 9월 생산자물가 0.2% 올라"},{"link":"https://www.chosun.com/economy/economy_general/2026/10/21/6AWZDS2EUBCFVIXOBPD4J42QPU/","main":"중립","source":"종합지형","tags":["수치형","단정형"],"text":"중간재 파고드는 글로벌 유가 압력…도매 물가, 전년比 8% 상승"}],"id":"economy","kicker":"경제 · 성장과 균형","short":"경제","topic":"생산자물가 상승","topic_description":""},{"headlines":[{"link":"https://www.hani.co.kr/arti/politics/politics_general/1283346.html","main":"중립","source":"종합지형","tags":["단정형","담담형"],"text":"사회적 대화 한창인데…민주 ‘주52시간 예외’ 초광역특구법 발의"},{"link":"https://www.donga.com/news/Politics/article/all/20261021/134878851/2","main":"중립","source":"종합지형","tags":["단정형","담담형"],"text":"與 ‘메가특구 주52시간 예외’ 눈치보며 시간끌기… 연내 도입 불투명"},{"link":"https://www.yna.co.kr/view/AKR20261020144400003","main":"중립","source":"통신사형","tags":["개인형","단정형"],"text":"경제계 \"초광역특구법안 환영…노동특례는 경쟁력 제고에 필수\""},{"link":"https://www.hani.co.kr/arti/opinion/editorial/1283347.html","main":"중립","source":"종합지형","tags":["단정형","담담형"],"text":"[사설] ‘사회적 대화’ 신뢰 흔드는 여당의 메가특구법 발의"}],"id":"society","kicker":"사회 · 공감과 논리","short":"사회","topic":"주52시간 예외 초광역특구법","topic_description":""},{"headlines":[{"link":"https://www.chosun.com/national/obituary-personnel/2026/10/21/Z5LYI4I35RGAPO33FA5PO5GHSE/","main":"중립","source":"종합지형","tags":["단정형","담담형"],"text":"대중음악평론가 강헌 별세"},{"link":"https://www.hani.co.kr/arti/culture/music/1283351.html","main":"중립","source":"종합지형","tags":["단정형","담담형"],"text":"음악으로 시대를 읽었던 비평가…강헌 별세"},{"link":"https://www.khan.co.kr/article/202610202214025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news","main":"중립","source":"종합지형","tags":["단정형","담담형"],"text":"‘대중음악 평론 새 지평’ 강헌 문화예술교육진흥원 이사장 별세"},{"link":"https://www.mk.co.kr/news/culture/12181036","main":"중립","source":"경제지형","tags":["단정형","담담형"],"text":"대중음악 평론가·명리학자 강헌 별세"}],"id":"culture","kicker":"문화 · 새로움과 깊이","short":"문화","topic":"강헌 별세","topic_description":""}],"date":"2026-10-21"};
+    const categories = newsData.categories;
+
+    const radarMetrics = [
+      { label: '핵심 전달', criterion: '사건이나 결과를 질문 없이 바로 제시' },
+      { label: '차분한 표현', criterion: '과장이나 감정적 강조 없이 사실을 전달' },
+      { label: '인물 중심', criterion: '특정 인물이나 당사자를 중심에 배치' },
+      { label: '결과 우선', criterion: '결정·변화·조치를 제목 앞부분에 제시' },
+      { label: '수치·인용', criterion: '숫자 또는 따옴표로 인용한 표현을 포함' },
+      { label: '배경 맥락', criterion: '원인·과거 사례·의미·후속 상황을 함께 제시' }
+    ];
+    const tagProfiles = {
+      '결과형': { name: '결론이 먼저', desc: '무슨 일이 생겼는지 바로 알려주는 제목', lead: '결론을 바로 알려주고', end: '결론을 바로 알려주는' },
+      '원인형': { name: '이유부터 설명', desc: '왜 그런지 원인부터 짚는 제목', lead: '이유를 짚어주고', end: '이유를 짚어주는' },
+      '수치형': { name: '숫자로 확인', desc: '수치와 데이터로 근거를 보여주는 제목', lead: '숫자로 설명하고', end: '숫자로 설명하는' },
+      '서사형': { name: '사람 이야기', desc: '한 사람의 경험과 장면을 따라가는 제목', lead: '사람 이야기를 담고', end: '사람 이야기를 담은' },
+      '단정형': { name: '분명한 한마디', desc: '핵심을 확실하게 말해주는 제목', lead: '핵심을 분명히 말하고', end: '핵심을 분명히 말하는' },
+      '의문형': { name: '질문으로 호기심', desc: '답을 직접 확인하고 싶게 만드는 제목', lead: '질문을 던지고', end: '질문을 던지는' },
+      '어그로형': { name: '긴장감 있는 표현', desc: '강한 대비와 궁금증으로 시선을 끄는 제목', lead: '긴장감을 높이고', end: '긴장감을 높이는' },
+      '담담형': { name: '차분한 설명', desc: '과장 없이 상황을 전하는 제목', lead: '차분하게 설명하고', end: '차분하게 설명하는' },
+      '책임형': { name: '할 일을 제시', desc: '무엇을 바꿔야 하는지 분명히 말하는 제목', lead: '할 일을 제시하고', end: '할 일을 제시하는' },
+      '처벌형': { name: '책임을 묻는 표현', desc: '잘못과 그에 따른 조치를 강조하는 제목', lead: '책임을 묻고', end: '책임을 묻는' },
+      '개인형': { name: '한 사람의 시선', desc: '개인의 경험과 선택에 집중하는 제목', lead: '한 사람의 시선을 담고', end: '한 사람의 시선을 담은' },
+      '집단형': { name: '사회의 변화', desc: '사회와 공동체 전체를 바라보는 제목', lead: '사회의 변화를 보고', end: '사회의 변화를 보는' },
+      '권위형': { name: '전문가의 해석', desc: '전문가의 분석과 평가를 앞세운 제목', lead: '전문가 해석을 담고', end: '전문가 해석을 담은' },
+      '시민형': { name: '현장의 목소리', desc: '당사자가 직접 전하는 경험을 담은 제목', lead: '현장 목소리를 담고', end: '현장 목소리를 담은' }
+    };
+
+    let current = 0;
+    let sourceCategoryIndex = 0;
+    let selections = categories.map(() => []);
+
+    const tabs = document.getElementById('categoryTabs');
+    const grid = document.getElementById('headlineGrid');
+    const nextButton = document.getElementById('nextButton');
+    const toast = document.getElementById('toast');
+    const [dataYear, dataMonth, dataDay] = newsData.date.split('-').map(Number);
+    document.getElementById('dataDate').textContent = `${dataYear}.${String(dataMonth).padStart(2, '0')}.${String(dataDay).padStart(2, '0')} 실제 기사`;
+    document.getElementById('headlineDate').textContent = `${dataYear}년 ${dataMonth}월 ${dataDay}일 헤드라인`;
+
+    function renderTabs() {
+      tabs.replaceChildren();
+      categories.forEach((category, index) => {
+        const button = document.createElement('button');
+        button.className = `category-tab ${index === current ? 'active' : ''}`;
+        button.dataset.index = index;
+        button.disabled = index > current;
+        button.textContent = category.short;
+        button.addEventListener('click', () => {
+          const nextIndex = Number(button.dataset.index);
+          if (nextIndex <= current) { current = nextIndex; render(); }
+        });
+        tabs.appendChild(button);
+      });
+    }
+
+    function renderCards() {
+      const cat = categories[current];
+      grid.replaceChildren();
+      cat.headlines.forEach((headline, index) => {
+        const selected = selections[current].includes(index);
+        const article = document.createElement('article');
+        article.className = 'headline-shell';
+
+        const button = document.createElement('button');
+        button.className = `headline-card ${selected ? 'selected' : ''}`;
+        button.dataset.index = index;
+        button.setAttribute('aria-pressed', String(selected));
+        button.addEventListener('click', () => toggle(index));
+
+        const cardTop = document.createElement('span');
+        cardTop.className = 'card-top';
+        const source = document.createElement('span');
+        source.className = 'source';
+        source.textContent = headline.source;
+        const check = document.createElement('span');
+        check.className = 'check';
+        check.setAttribute('aria-hidden', 'true');
+        check.textContent = '✓';
+        cardTop.append(source, check);
+
+        const title = document.createElement('strong');
+        title.className = 'headline';
+        title.textContent = headline.text;
+        button.append(cardTop, title);
+        article.appendChild(button);
+        grid.appendChild(article);
+      });
+    }
+
+    function toggle(index) {
+      const chosen = selections[current];
+      if (chosen.includes(index)) chosen.splice(chosen.indexOf(index), 1);
+      else if (chosen.length < 2) chosen.push(index);
+      else { showToast(); return; }
+      render();
+    }
+
+    function render() {
+      const cat = categories[current];
+      document.getElementById('categoryKicker').textContent = cat.kicker;
+      document.getElementById('topicTitle').textContent = cat.topic;
+      document.getElementById('topicDescription').textContent = cat.topic_description;
+      document.getElementById('selectionCount').textContent = `${selections[current].length} / 2`;
+      document.getElementById('progressText').textContent = `${current + 1} / 4`;
+      document.getElementById('progressFill').style.width = `${(current + 1) * 25}%`;
+      nextButton.disabled = selections[current].length !== 2;
+      nextButton.textContent = current === categories.length - 1 ? '내 취향 결과 보기' : '다음 분야';
+      renderTabs();
+      renderCards();
+    }
+
+    function showToast() {
+      toast.classList.add('show');
+      window.setTimeout(() => toast.classList.remove('show'), 1500);
+    }
+
+    nextButton.addEventListener('click', () => {
+      if (selections[current].length !== 2) return;
+      if (current < categories.length - 1) {
+        current += 1;
+        render();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else showResult();
+    });
+
+    function radarPoint(index, radius, centerX = 360, centerY = 280) {
+      const angle = (-90 + index * 60) * Math.PI / 180;
+      return { x: centerX + Math.cos(angle) * radius, y: centerY + Math.sin(angle) * radius, angle };
+    }
+
+    function polygonPoints(radius) {
+      return radarMetrics.map((_, index) => {
+        const point = radarPoint(index, radius);
+        return `${point.x.toFixed(1)},${point.y.toFixed(1)}`;
+      }).join(' ');
+    }
+
+    function articleMetrics(article) {
+      if (Array.isArray(article.metrics) && article.metrics.length === radarMetrics.length) return article.metrics;
+      const tags = new Set(article.tags || []);
+      const text = article.text || '';
+      return [
+        tags.has('단정형') || tags.has('결과형') ? 1 : 0,
+        tags.has('담담형') && !tags.has('어그로형') ? 1 : 0,
+        tags.has('개인형') || tags.has('시민형') || tags.has('서사형') ? 1 : 0,
+        tags.has('결과형') ? 1 : 0,
+        tags.has('수치형') || /[0-9%“”"‘’]/.test(text) ? 1 : 0,
+        tags.has('원인형') || tags.has('담담형') ? 1 : 0
+      ];
+    }
+
+    function renderRadar(selectedArticles) {
+      const total = selectedArticles.length || 1;
+      const scores = radarMetrics.map((metric, metricIndex) => {
+        const matches = selectedArticles.reduce((sum, item) => sum + articleMetrics(item.article)[metricIndex], 0);
+        return Math.round(matches / total * 100);
+      });
+      const dataPoints = scores.map((score, index) => {
+        const point = radarPoint(index, 170 * score / 100);
+        return `${point.x.toFixed(1)},${point.y.toFixed(1)}`;
+      }).join(' ');
+      const grids = [42.5, 85, 127.5, 170].map(radius => `<polygon class="radar-grid" points="${polygonPoints(radius)}"></polygon>`).join('');
+      const axes = radarMetrics.map((_, index) => {
+        const point = radarPoint(index, 170);
+        return `<line class="radar-axis" x1="360" y1="280" x2="${point.x.toFixed(1)}" y2="${point.y.toFixed(1)}"></line>`;
+      }).join('');
+      const points = scores.map((score, index) => {
+        const point = radarPoint(index, 170 * score / 100);
+        const valuePoint = radarPoint(index, 170 * score / 100 + 18);
+        return `<circle class="radar-point" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="6"></circle>
+          <text class="radar-value" x="${valuePoint.x.toFixed(1)}" y="${(valuePoint.y + 5).toFixed(1)}" text-anchor="middle">${score}%</text>`;
+      }).join('');
+      const labels = radarMetrics.map((metric, index) => {
+        const point = radarPoint(index, 225);
+        const anchor = point.x < 320 ? 'end' : point.x > 400 ? 'start' : 'middle';
+        return `<text class="radar-label" x="${point.x.toFixed(1)}" y="${(point.y + 6).toFixed(1)}" text-anchor="${anchor}">${metric.label}</text>`;
+      }).join('');
+      const summary = radarMetrics.map((metric, index) => `${metric.label} ${scores[index]}%`).join(', ');
+      const criteria = radarMetrics.map(metric => `${metric.label}: ${metric.criterion}`).join('. ');
+      document.getElementById('radarReport').innerHTML = `<svg class="radar-chart" viewBox="0 0 720 560" role="img" aria-label="${summary}">
+        <title>선택한 기사 제목으로 분석한 여섯 가지 취향 지표</title>
+        <desc>${criteria}</desc>
+        ${grids}${axes}<polygon class="radar-shape" points="${dataPoints}"></polygon>${points}${labels}
+      </svg>`;
+    }
+
+    function safeArticleUrl(value) {
+      try {
+        const url = new URL(String(value), document.baseURI);
+        return url.protocol === 'https:' || url.protocol === 'http:' ? url.href : null;
+      } catch (_) {
+        return null;
+      }
+    }
+
+    function renderSelectedLinks() {
+      const category = categories[sourceCategoryIndex];
+      const chosenArticles = selections[sourceCategoryIndex].map(articleIndex => category.headlines[articleIndex]);
+      const categoryLabel = document.createElement('span');
+      categoryLabel.className = 'source-category-label';
+      categoryLabel.textContent = `${sourceCategoryIndex + 1} / ${categories.length}`;
+      const categoryName = document.createElement('strong');
+      categoryName.className = 'source-category-name';
+      categoryName.textContent = category.short;
+      document.getElementById('sourceCategory').replaceChildren(categoryLabel, categoryName);
+
+      const selectedLinks = document.getElementById('selectedLinks');
+      selectedLinks.replaceChildren();
+      chosenArticles.forEach(article => {
+        const safeUrl = safeArticleUrl(article.link);
+        const item = document.createElement(safeUrl ? 'a' : 'div');
+        item.className = 'selected-link';
+        if (safeUrl) {
+          item.href = safeUrl;
+          item.target = '_blank';
+          item.rel = 'noopener noreferrer';
+        }
+
+        const meta = document.createElement('span');
+        meta.className = 'selected-link-meta';
+        meta.textContent = article.source;
+        const title = document.createElement('span');
+        title.className = 'selected-link-title';
+        title.textContent = article.text;
+        const open = document.createElement('span');
+        open.className = 'selected-link-open';
+        open.textContent = safeUrl ? '원문 기사 보기 ↗' : '원문 링크를 확인할 수 없어요';
+        item.append(meta, title, open);
+        selectedLinks.appendChild(item);
+      });
+    }
+
+    function moveSourceCategory(direction) {
+      sourceCategoryIndex = (sourceCategoryIndex + direction + categories.length) % categories.length;
+      renderSelectedLinks();
+    }
+
+    function showResult() {
+      const tagCounts = {};
+      const selectedArticles = [];
+      categories.forEach((cat, idx) => {
+        selections[idx].forEach(articleIdx => {
+          const article = cat.headlines[articleIdx];
+          selectedArticles.push({ category: cat.short, categoryId: cat.id, articleIndex: articleIdx, article });
+          article.tags.forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
+        });
+      });
+
+      const sortedTags = Object.entries(tagCounts).sort((a,b) => b[1] - a[1]);
+      const top = sortedTags.slice(0, 2);
+      const firstProfile = tagProfiles[top[0][0]];
+      const secondProfile = top[1] ? tagProfiles[top[1][0]] : null;
+      const highlightText = secondProfile
+        ? `${firstProfile.lead} ${secondProfile.end}`
+        : firstProfile.end;
+      document.getElementById('resultHeadline').innerHTML = `<span class="headline-context">당신은</span><strong class="headline-highlight">${highlightText}</strong><span class="headline-context">제목을 자주 골랐어요.</span>`;
+      document.getElementById('typeCopy').textContent = '고른 제목 8개에서 가장 많이 반복된 특징이에요.';
+
+      renderRadar(selectedArticles);
+      const topCount = top.length ? top[0][1] : 0;
+      document.getElementById('tagReport').innerHTML = top.map(([tag, count]) => {
+        const profile = tagProfiles[tag];
+        const label = count === topCount ? '자주 고른 말투' : '함께 자주 고른 말투';
+        return `<article class="wording-item">
+          <span class="wording-rank">${label}</span>
+          <strong class="wording-name">${profile.name}</strong>
+          <span class="wording-desc">${profile.desc}</span>
+        </article>`;
+      }).join('');
+      sourceCategoryIndex = 0;
+      renderSelectedLinks();
+      document.getElementById('quiz').classList.add('hidden');
+      document.getElementById('result').classList.add('show');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function restart() {
+      current = 0;
+      selections = categories.map(() => []);
+      document.getElementById('result').classList.remove('show');
+      document.getElementById('quiz').classList.remove('hidden');
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    document.getElementById('sourcePrev').addEventListener('click', () => moveSourceCategory(-1));
+    document.getElementById('sourceNext').addEventListener('click', () => moveSourceCategory(1));
+    document.getElementById('restartTop').addEventListener('click', restart);
+    document.getElementById('restartBottom').addEventListener('click', restart);
+    render();
+  </script>
+</body>
+</html>
