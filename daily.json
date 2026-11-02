@@ -1,26 +1,16 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "categories": [
     {
       "id": "politics",
       "short": "정치",
       "kicker": "정치 · 제도와 변화",
-      "topic": "821조 예산안 시정연설",
+      "topic": "美 중간선거 오늘 투표",
       "topic_description": "",
       "headlines": [
         {
-          "text": "李대통령, 오늘 '821조' 내년예산 직접 설명…시정연설",
-          "link": "https://www.yna.co.kr/view/AKR20261101044100001",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "개인형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "정쟁만 난무했던 국감 끝나고…2일부터 ‘821조 예산안’ 정국",
-          "link": "https://www.khan.co.kr/article/202611012121005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "text": "트럼프, 수도 워싱턴 DC서 마지막 연설… “우리 생애 가장 중요한 선거”",
+          "link": "https://www.chosun.com/international/us/2026/11/03/AI2LZOQJKFF3ZJT3ZBQJGDM4II/",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -29,23 +19,33 @@
           ]
         },
         {
-          "text": "李대통령, 2일 시정연설…내년 '821조' 예산 설득 나서",
-          "link": "https://www.yna.co.kr/view/AKR20261101026100001",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "개인형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "예산정책처 “2029년부터 미래기금 재원인 추가세수 끊겨”",
-          "link": "https://www.donga.com/news/Economy/article/all/20261102/134947234/2",
+          "text": "트럼프 남은 2년 달렸다, 오늘 美 중간선거",
+          "link": "https://www.donga.com/news/Inter/article/all/20261103/134953889/2",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "원인형",
-            "단정형"
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "트럼프 남은 2년 운명 가를 미 중간선거 오늘 투표",
+          "link": "https://www.hani.co.kr/arti/international/america/1285440.html",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "중간선거 하루 앞으로…\"민주당에 지면 '미스터 거부권'\"",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827054&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
+          "main": "중립",
+          "tags": [
+            "개인형",
+            "서사형"
           ]
         }
       ]
@@ -54,12 +54,22 @@
       "id": "economy",
       "short": "경제",
       "kicker": "경제 · 성장과 균형",
-      "topic": "수출 1조달러 카운트다운",
+      "topic": "821조 예산안 심사",
       "topic_description": "",
       "headlines": [
         {
-          "text": "수출, 獨-美-中 이어 1조달러 눈앞… 성장률 뛰는데 체감경기는 ‘한파’",
-          "link": "https://www.donga.com/news/Economy/article/all/20261102/134947226/2",
+          "text": "821조 원 역대 최대 예산안…\"모두의 성장으로 대전환\"",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827036&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
+          "main": "G",
+          "tags": [
+            "개인형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "李 “모두의 성장… 추가세수 162조 4개 축에 투자”",
+          "link": "https://www.donga.com/news/Politics/article/all/20261103/134953895/2",
           "source": "종합지형",
           "main": "G",
           "tags": [
@@ -68,8 +78,8 @@
           ]
         },
         {
-          "text": "한국, 세계 4번째 ‘수출 1조달러’ 카운트다운…700억달러만 남았다",
-          "link": "https://www.hani.co.kr/arti/economy/marketing/1285243.html",
+          "text": "청년예산 54% 확대…취약층 지원·지역균형발전 역점",
+          "link": "https://www.hani.co.kr/arti/politics/bluehouse/1285417.html",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -78,18 +88,8 @@
           ]
         },
         {
-          "text": "수출 1조시대, 알고보니 49%가 반도체…삐끗하면 나라 흔들린다",
-          "link": "https://www.mk.co.kr/news/economy/12193048",
-          "source": "경제지형",
-          "main": "중립",
-          "tags": [
-            "수치형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "올해 수출 '꿈의 1조 달러' 눈앞…미·중·독 이어 세계 4위(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261101015351003",
+          "text": "국힘 \"내년 예산안, 미래 약탈 선언\" 맹폭…송곳 검증 예고",
+          "link": "https://www.yna.co.kr/view/AKR20261102132600001",
           "source": "통신사형",
           "main": "중립",
           "tags": [
@@ -103,22 +103,22 @@
       "id": "society",
       "short": "사회",
       "kicker": "사회 · 공감과 논리",
-      "topic": "수사 구조 개편 한 달, 경찰 책임 확대",
+      "topic": "연금 불안에 타오르는 프랑스",
       "topic_description": "",
       "headlines": [
         {
-          "text": "[개정 형소법 한달]경찰 책임 커졌지만 인력 부족…급증한 보완수사 요구 등에 ‘업무 부담’",
-          "link": "https://www.khan.co.kr/article/202611020600131/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "source": "종합지형",
+          "text": "보도블록 날아다니고 경찰 몸에 불…565명 체포",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825250&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
           "main": "중립",
           "tags": [
-            "책임형",
-            "단정형"
+            "단정형",
+            "담담형"
           ]
         },
         {
-          "text": "출범 한달 중수청, 공소청·경찰과 리니언시·사건 관할 논란",
-          "link": "https://www.hani.co.kr/arti/society/society_general/1285255.html",
+          "text": "대규모 시위 근원 ‘연금 불안’…흔들리는 유럽 복지국가",
+          "link": "https://www.khan.co.kr/article/202611022051005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -127,23 +127,23 @@
           ]
         },
         {
-          "text": "김종철 경찰청장 대행 \"수사 부서 가장 일하고 싶은 부서로\"",
-          "link": "https://www.yna.co.kr/view/AKR20261101043600004",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "개인형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "[개정 형소법 한달]추미애는 보내고, 한동훈은 묵히고…중수청은 왜 한 달째 사건 뒤적이나",
-          "link": "https://www.khan.co.kr/article/202611020600121/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "text": "“무기 대신 학교·주택을”…유럽 청년 분노 키운 불평등",
+          "link": "https://www.hani.co.kr/arti/international/international_general/1285441.html",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "원인형",
-            "단정형"
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "“교육·주거부터 성차별·기후위기까지…복합 불평등이  프랑스 시위의 뿌리” [인터뷰]",
+          "link": "https://www.hani.co.kr/arti/international/international_general/1285439.html",
+          "source": "종합지형",
+          "main": "E",
+          "tags": [
+            "단정형",
+            "담담형"
           ]
         }
       ]
@@ -152,12 +152,12 @@
       "id": "culture",
       "short": "문화",
       "kicker": "문화 · 새로움과 깊이",
-      "topic": "세계로 나가는 한국 문화",
+      "topic": "경계를 넘는 문화",
       "topic_description": "",
       "headlines": [
         {
-          "text": "대영박물관 전시됐던 이천 4대째 명인 달항아리 대중화 도전, 조선몰 단독 소개",
-          "link": "https://www.chosun.com/economy/startup_story/2026/11/02/I6C2EUVIXVA6FNRUMQ3WCP75D4/",
+          "text": "7년만에 돌아온 드라마 ‘심야식당’… 韓日中 문화 차이 보여준다",
+          "link": "https://www.chosun.com/international/japan/2026/11/03/SMUNQT2WABHLDOCNLP7HBNBM2M/",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -166,8 +166,8 @@
           ]
         },
         {
-          "text": "[단독]“동양철학 오행-윤이상 음악 스며든 전시, 낭만을 찾았다”",
-          "link": "https://www.donga.com/news/Culture/article/all/20261102/134946739/2",
+          "text": "AI 손잡은 예술가… 무한대로 펼쳐진 미지의 길에 서다",
+          "link": "https://www.donga.com/news/Culture/article/all/20261103/134953718/2",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -176,23 +176,23 @@
           ]
         },
         {
-          "text": "누군 몇천억 쓰고도 망했는데…5억 들여 118개국에 팔아치운 이 영화",
-          "link": "https://www.mk.co.kr/news/culture/12193052",
-          "source": "경제지형",
-          "main": "중립",
-          "tags": [
-            "수치형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "분장예술인협회, 마곡서 '뷰티 아트페어'…13개국 1천300명 참석",
-          "link": "https://www.yna.co.kr/view/AKR20261101026400030",
+          "text": "[공연소식] 국립무용단, 4일 미국 LA서 '탈바꿈' 공연",
+          "link": "https://www.yna.co.kr/view/AKR20261102149300005",
           "source": "통신사형",
           "main": "중립",
           "tags": [
             "개인형",
             "단정형"
+          ]
+        },
+        {
+          "text": "\"20대 '텍스트힙' 열풍에 서점 매출 9%↑…작은 책방은 감소\"",
+          "link": "https://www.yna.co.kr/view/AKR20261102167400002",
+          "source": "통신사형",
+          "main": "중립",
+          "tags": [
+            "수치형",
+            "개인형"
           ]
         }
       ]
