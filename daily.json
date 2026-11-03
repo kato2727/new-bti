@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "categories": [
     {
       "id": "politics",
       "short": "정치",
       "kicker": "정치 · 제도와 변화",
-      "topic": "美 중간선거 오늘 투표",
+      "topic": "미 중간선거 개표",
       "topic_description": "",
       "headlines": [
         {
-          "text": "트럼프, 수도 워싱턴 DC서 마지막 연설… “우리 생애 가장 중요한 선거”",
-          "link": "https://www.chosun.com/international/us/2026/11/03/AI2LZOQJKFF3ZJT3ZBQJGDM4II/",
+          "text": "트럼프 정치 운명 갈린다… 오늘 중간선거 표심 윤곽",
+          "link": "https://www.donga.com/news/Inter/article/all/20261104/134961367/2",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -19,33 +19,33 @@
           ]
         },
         {
-          "text": "트럼프 남은 2년 달렸다, 오늘 美 중간선거",
-          "link": "https://www.donga.com/news/Inter/article/all/20261103/134953889/2",
+          "text": "견제 원하지만 도리어 압박 세질라…미 중간선거를 바라보는 각국의 딜레마",
+          "link": "https://www.khan.co.kr/article/202611040600071/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "원인형",
+            "단정형"
           ]
         },
         {
-          "text": "트럼프 남은 2년 운명 가를 미 중간선거 오늘 투표",
-          "link": "https://www.hani.co.kr/arti/international/america/1285440.html",
+          "text": "[美중간선거] 트럼프 정부 사상최대 감시단 파견…野주지사 주방위군 동원",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iUUZPRzB1MDZBODVCS0l4TGdNOHN6WnJHOF84alRteFA2T2QwU2hQclFQclJodVp2eElRc044c05rYXkweUVwNkhqM0VacC1ZV1BVVEFkSXV2TkXSAWBBVV95cUxNTG0yTXFMRnZCRHRwUm1xQ2UyOHBJV0U3eDcwUUNicVozQW9DWEg1aVpnTU0zc1QtZ3NnYmJXRGd1SDNjRWRoVWdsVDIzMXZRcy1mT2ZUcE1LVkFSXzE1bm4?oc=5",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "서사형",
+            "단정형"
           ]
         },
         {
-          "text": "중간선거 하루 앞으로…\"민주당에 지면 '미스터 거부권'\"",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827054&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
+          "text": "美민주당, 중간선거 직전 ’내홍’…경합지서 공화당 후보 지지 파문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LVUs5cHZKMDRLMmtubklzVDF5b3JQTGNkdU04SmVNckVJYVJfZjFoeEpQSkh6aTlRQ090Z015cnFtMWdKbXZnbTE1R0NKYTczLWtlYWM1QkFLcnprSWlyX2phUmRQY3M?oc=5",
+          "source": "종합지형",
           "main": "중립",
           "tags": [
-            "개인형",
-            "서사형"
+            "집단형",
+            "단정형"
           ]
         }
       ]
@@ -54,47 +54,47 @@
       "id": "economy",
       "short": "경제",
       "kicker": "경제 · 성장과 균형",
-      "topic": "821조 예산안 심사",
+      "topic": "한일 미래경제포럼",
       "topic_description": "",
       "headlines": [
         {
-          "text": "821조 원 역대 최대 예산안…\"모두의 성장으로 대전환\"",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827036&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
-          "main": "G",
-          "tags": [
-            "개인형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "李 “모두의 성장… 추가세수 162조 4개 축에 투자”",
-          "link": "https://www.donga.com/news/Politics/article/all/20261103/134953895/2",
-          "source": "종합지형",
-          "main": "G",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "청년예산 54% 확대…취약층 지원·지역균형발전 역점",
-          "link": "https://www.hani.co.kr/arti/politics/bluehouse/1285417.html",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "수치형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "국힘 \"내년 예산안, 미래 약탈 선언\" 맹폭…송곳 검증 예고",
-          "link": "https://www.yna.co.kr/view/AKR20261102132600001",
+          "text": "\"한일 연대는 생존 위한 필수 전략\"…연합뉴스 미래경제포럼(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261102067251898",
           "source": "통신사형",
           "main": "중립",
           "tags": [
             "개인형",
             "단정형"
+          ]
+        },
+        {
+          "text": "[미래경제포럼] 양기호 \"한일 정상 우호에도 구체 협력 성과는 부족\"",
+          "link": "https://www.yna.co.kr/view/AKR20261103171600504",
+          "source": "통신사형",
+          "main": "중립",
+          "tags": [
+            "개인형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "[미래경제포럼] 롯데 \"한일 계열사 연계한 '원롯데'로 시장 공략 강화\"",
+          "link": "https://www.yna.co.kr/view/AKR20261103126500898",
+          "source": "통신사형",
+          "main": "G",
+          "tags": [
+            "개인형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "[미래경제포럼] 뤼튼 이세영 \"한일, 대규모 투자로 AI 스타트업 육성해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20261103151100017",
+          "source": "통신사형",
+          "main": "G",
+          "tags": [
+            "책임형",
+            "개인형"
           ]
         }
       ]
@@ -103,81 +103,32 @@
       "id": "society",
       "short": "사회",
       "kicker": "사회 · 공감과 논리",
-      "topic": "연금 불안에 타오르는 프랑스",
+      "topic": "순방단 개인정보 유출",
       "topic_description": "",
       "headlines": [
         {
-          "text": "보도블록 날아다니고 경찰 몸에 불…565명 체포",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825250&plink=RSSLINK&cooper=RSSREADER",
+          "text": "1호기 탑승자 정보, 해킹 아닌 유출에 무게… 경찰 수사 착수",
+          "link": "https://www.chosun.com/politics/politics_general/2026/11/04/3LQLEEGESZBIXFZBMNVF23NM4Y/",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "원인형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "[단독] '대통령 순방단' 개인정보, 벨기에 전달하다 샜나",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829058&plink=RSSLINK&cooper=RSSREADER",
           "source": "방송사형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "의문형",
+            "개인형"
           ]
         },
         {
-          "text": "대규모 시위 근원 ‘연금 불안’…흔들리는 유럽 복지국가",
-          "link": "https://www.khan.co.kr/article/202611022051005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "“무기 대신 학교·주택을”…유럽 청년 분노 키운 불평등",
-          "link": "https://www.hani.co.kr/arti/international/international_general/1285441.html",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "“교육·주거부터 성차별·기후위기까지…복합 불평등이  프랑스 시위의 뿌리” [인터뷰]",
-          "link": "https://www.hani.co.kr/arti/international/international_general/1285439.html",
-          "source": "종합지형",
-          "main": "E",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "culture",
-      "short": "문화",
-      "kicker": "문화 · 새로움과 깊이",
-      "topic": "경계를 넘는 문화",
-      "topic_description": "",
-      "headlines": [
-        {
-          "text": "7년만에 돌아온 드라마 ‘심야식당’… 韓日中 문화 차이 보여준다",
-          "link": "https://www.chosun.com/international/japan/2026/11/03/SMUNQT2WABHLDOCNLP7HBNBM2M/",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "AI 손잡은 예술가… 무한대로 펼쳐진 미지의 길에 서다",
-          "link": "https://www.donga.com/news/Culture/article/all/20261103/134953718/2",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "[공연소식] 국립무용단, 4일 미국 LA서 '탈바꿈' 공연",
-          "link": "https://www.yna.co.kr/view/AKR20261102149300005",
+          "text": "\"'1호기 명단', 외교부 문서 형식 맞아…정식 공문은 아냐\"",
+          "link": "https://www.yna.co.kr/view/AKR20261103147900504",
           "source": "통신사형",
           "main": "중립",
           "tags": [
@@ -186,13 +137,62 @@
           ]
         },
         {
-          "text": "\"20대 '텍스트힙' 열풍에 서점 매출 9%↑…작은 책방은 감소\"",
-          "link": "https://www.yna.co.kr/view/AKR20261102167400002",
+          "text": "외교부 \"1호기 탑승자 명단 내부 유출…해킹 아냐\"",
+          "link": "https://www.khan.co.kr/article/202611032151005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "개인형",
+            "단정형"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "short": "문화",
+      "kicker": "문화 · 새로움과 깊이",
+      "topic": "다문화 우대 논란",
+      "topic_description": "",
+      "headlines": [
+        {
+          "text": "다문화 '우대 시책' 조사에…지자체 \"도입 배경 등 살펴야\"",
+          "link": "https://www.khan.co.kr/article/202611032212005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "원인형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "역차별 논란에 가려진 '다문화 정책' 사각지대…\"보이지 않는 차별\" 봐주세요",
+          "link": "https://www.khan.co.kr/article/202611032151025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "source": "종합지형",
+          "main": "E",
+          "tags": [
+            "서사형",
+            "개인형"
+          ]
+        },
+        {
+          "text": "李가 불지핀 '다문화' 논란… 靑, 이주 단체 만나 \"혐오 아니다\"",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaXlOVDJWVWhMNHYzRzFOY1pOa0VrQkJtbTl3ZmJkM1c0ZlRkNl83ZTNyaEZsbHFpYkNWMi1qeEdoc1NNQVd6aG1GcjllVjJCbVVzNlZ0a1hTVlVETlJKQm5XZVBsVEVtc0lRNG0xUzJrR0FXQ1d5RVNzTDdvT2RRSzk2VjViSVpmYi04TDNTTGk?oc=5",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "원인형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "靑, 이주노동자 정책 간담회…'혐오 확산' 우려에 \"적극 경청\"",
+          "link": "https://www.yna.co.kr/view/AKR20261103159600004",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "수치형",
-            "개인형"
+            "개인형",
+            "단정형"
           ]
         }
       ]
