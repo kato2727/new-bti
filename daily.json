@@ -1,51 +1,51 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "categories": [
     {
       "id": "politics",
       "short": "정치",
       "kicker": "정치 · 제도와 변화",
-      "topic": "미 중간선거 참패 후폭풍",
+      "topic": "이용철 법무장관 지명",
       "topic_description": "",
       "headlines": [
         {
-          "text": "헤그세스 교체설 이어 루비오 사임설… 선거 참패 후폭풍 계속",
-          "link": "https://www.chosun.com/international/us/2026/11/06/F7UH3DR5TRGR3EEG7YPL7WOEGA/",
+          "text": "이용철 법무장관 후보자 “검찰개혁 완수…새 형사체계 안착 힘쓸 것”",
+          "link": "https://www.hani.co.kr/arti/society/society_general/1286187.html",
           "source": "종합지형",
-          "main": "중립",
+          "main": "R",
           "tags": [
             "단정형",
             "담담형"
           ]
         },
         {
-          "text": "“탄핵 걱정 안한다”는 트럼프, “추진땐 민주당 파멸” 불안 드러내",
-          "link": "https://www.donga.com/news/Inter/article/all/20261106/134975634/2",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "중간선거 참패에 이란전 ‘진퇴양난’ 트럼프…공습도 협상도 난관",
-          "link": "https://www.hani.co.kr/arti/international/america/1286034.html",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "\"중간선거 최대 패배자는 머스크\"…6천억 원 '헛돈' 썼다",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832889&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
+          "text": "'성남인연' 이용철 법무장관 후보지명에 檢 \"공소취소용 인사\" 반발",
+          "link": "https://www.yna.co.kr/view/AKR20261106174300004",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
             "개인형",
             "단정형"
+          ]
+        },
+        {
+          "text": "신임 법무장관에 ‘친노·민변’ 이용철 지명…‘성남라인·대장동 의혹’ 청문회 달굴 듯",
+          "link": "https://www.khan.co.kr/article/202611061712001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "이용철 법무장관 후보 “검찰개혁 차질없이 완수하겠다”",
+          "link": "https://www.mk.co.kr/news/society/12200764",
+          "source": "경제지형",
+          "main": "R",
+          "tags": [
+            "단정형",
+            "담담형"
           ]
         }
       ]
@@ -54,46 +54,46 @@
       "id": "economy",
       "short": "경제",
       "kicker": "경제 · 성장과 균형",
-      "topic": "영국 기준금리 인상",
+      "topic": "코스피 급락 쇼크",
       "topic_description": "",
       "headlines": [
         {
-          "text": "영국, 3년3개월만에 기준금리 4%로 인상…“마지막 인상 아닐 것”",
-          "link": "https://www.hani.co.kr/arti/international/globaleconomy/1286033.html",
+          "text": "퍼렇게 질린 코스피, 장중 ‘오천피’ 깨졌다",
+          "link": "https://www.donga.com/news/Economy/article/all/20261107/134982654/2",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "수치형",
-            "단정형"
+            "단정형",
+            "담담형"
           ]
         },
         {
-          "text": "영국, 물가 급등에 3년여 만에 기준금리 인상…연 4%로 0.25%p↑",
-          "link": "https://www.khan.co.kr/article/202611052127001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "text": "민주, 증시 급락에 긴급 당정…김민석 “개인 투자자 보호·시장 신뢰 회복”",
+          "link": "https://www.hani.co.kr/arti/politics/politics_general/1286188.html",
           "source": "종합지형",
           "main": "G",
           "tags": [
-            "수치형",
-            "단정형"
+            "단정형",
+            "담담형"
           ]
         },
         {
-          "text": "영국도 기준금리 인상 … 3년만에 0.25%P 올려",
-          "link": "https://www.mk.co.kr/news/world/12199320",
-          "source": "경제지형",
+          "text": "파란 쓰나미에 코스피도…외국인들 팔아치운 주식 보니",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832884&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
           "main": "중립",
           "tags": [
-            "수치형",
-            "단정형"
+            "단정형",
+            "담담형"
           ]
         },
         {
-          "text": "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합2보)",
-          "link": "https://www.yna.co.kr/view/AKR20261105179053085",
+          "text": "669개종목 연중 최저가·코스피 이틀간 11% 폭락…숫자로 본 증시급락(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261106071651008",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "개인형",
+            "수치형",
             "단정형"
           ]
         }
@@ -103,12 +103,12 @@
       "id": "society",
       "short": "사회",
       "kicker": "사회 · 공감과 논리",
-      "topic": "흉기 난동 잇따라",
+      "topic": "은평 스토킹 살인",
       "topic_description": "",
       "headlines": [
         {
-          "text": "경찰, ‘병원 흉기 난동’ 50대 구속영장 신청",
-          "link": "https://www.khan.co.kr/article/202611052115015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "text": "경찰, 은평 ‘스토킹 살인’ 60대 구속영장 신청",
+          "link": "https://www.hani.co.kr/arti/society/society_general/1286196.html",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -117,29 +117,29 @@
           ]
         },
         {
-          "text": "경찰 '세브란스병원 칼부림 여성' 살인미수 혐의 구속영장 신청(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261105063751004",
-          "source": "통신사형",
+          "text": "“대화중 화나 살해” 은평 스토킹 살해 남성 범행 인정…경찰, 구속영장 신청 예정",
+          "link": "https://www.khan.co.kr/article/202611061748001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "source": "종합지형",
           "main": "중립",
           "tags": [
             "처벌형",
-            "개인형"
-          ]
-        },
-        {
-          "text": "돌연 진료실 난입…신촌세브란스 흉기 난동에 교수 중상",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831006&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
-          "main": "중립",
-          "tags": [
-            "권위형",
             "단정형"
           ]
         },
         {
-          "text": "“오지 말라”며 도로서 흉기 들고 난동…환자복 입은 40대 무슨 일이",
-          "link": "https://www.mk.co.kr/news/society/12198928",
-          "source": "경제지형",
+          "text": "경찰, 은평 스토킹 살인 60대 남성 구속영장 신청",
+          "link": "https://www.yna.co.kr/view/AKR20261106183500004",
+          "source": "통신사형",
+          "main": "중립",
+          "tags": [
+            "처벌형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "역삼 방화-은평 前연인 살해… 고립된 고령층, 원한-갈등이 범죄로",
+          "link": "https://www.donga.com/news/Society/article/all/20261106/134982243/2",
+          "source": "종합지형",
           "main": "중립",
           "tags": [
             "단정형",
@@ -156,8 +156,8 @@
       "topic_description": "",
       "headlines": [
         {
-          "text": "13종 1062권… ‘세계문학’을 전시하다",
-          "link": "https://www.donga.com/news/Culture/article/all/20261106/134975374/2",
+          "text": "[책의 향기]유산과 상품 사이, 줄 타는 서울 한옥",
+          "link": "https://www.donga.com/news/Culture/article/all/20261106/134981520/2",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -166,8 +166,8 @@
           ]
         },
         {
-          "text": "천재작가 차학경의 귀환… 비극적 삶, 잊힌 예술세계 ‘봉인’ 푼다",
-          "link": "https://www.hani.co.kr/arti/culture/book/1286036.html",
+          "text": "[책의 향기]노비에서 시인으로… 정초부의 삶",
+          "link": "https://www.donga.com/news/Culture/article/all/20261106/134981509/2",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -176,22 +176,22 @@
           ]
         },
         {
-          "text": "11월 6일 문학 새 책",
-          "link": "https://www.hani.co.kr/arti/culture/book/1286025.html",
-          "source": "종합지형",
+          "text": "소설 '혼불'의 서도역 걸어볼까…남원시, 주말 '문학 산책' 운영",
+          "link": "https://www.yna.co.kr/view/AKR20261106082000055",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "개인형",
+            "단정형"
           ]
         },
         {
-          "text": "[책과 삶]“노력하면 다 된다”는 공고생들···그들은 왜 실패를 자기 탓으로 돌릴까",
-          "link": "https://www.khan.co.kr/article/202611060600071/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "source": "종합지형",
+          "text": "득점 뒤 수 싸움을 읽다…신간 '재밌어서 밤새 읽는 농구전술책'",
+          "link": "https://www.yna.co.kr/view/AKR20261106075400007",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
-            "원인형",
+            "개인형",
             "단정형"
           ]
         }
