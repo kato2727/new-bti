@@ -1,51 +1,51 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "categories": [
     {
       "id": "politics",
       "short": "정치",
       "kicker": "정치 · 제도와 변화",
-      "topic": "이용철 법무장관 지명",
+      "topic": "조작기소 특검법",
       "topic_description": "",
       "headlines": [
         {
-          "text": "이용철 법무장관 후보자 “검찰개혁 완수…새 형사체계 안착 힘쓸 것”",
-          "link": "https://www.hani.co.kr/arti/society/society_general/1286187.html",
+          "text": "[포토] “대통령도 잘못하면 감옥 가야”…국힘, 조작기소 특검법 규탄",
+          "link": "https://www.hani.co.kr/arti/politics/politics_general/1286242.html",
           "source": "종합지형",
-          "main": "R",
+          "main": "중립",
           "tags": [
             "단정형",
             "담담형"
           ]
         },
         {
-          "text": "'성남인연' 이용철 법무장관 후보지명에 檢 \"공소취소용 인사\" 반발",
-          "link": "https://www.yna.co.kr/view/AKR20261106174300004",
+          "text": "“조작기소 특검법은 ‘이재명 탈옥법’”…거리 나선 국힘, ‘탄핵’ 거론",
+          "link": "https://www.hani.co.kr/arti/politics/politics_general/1286236.html",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "국힘, '조작기소특검법 규탄' 장외집회…張 \"李대통령 탄핵해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20261107043800001",
+          "source": "통신사형",
+          "main": "중립",
+          "tags": [
+            "책임형",
+            "개인형"
+          ]
+        },
+        {
+          "text": "조작기소 특검법안, 與주도로 국회통과…국힘 \"이재명 방탄악법\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261106131151001",
           "source": "통신사형",
           "main": "중립",
           "tags": [
             "개인형",
             "단정형"
-          ]
-        },
-        {
-          "text": "신임 법무장관에 ‘친노·민변’ 이용철 지명…‘성남라인·대장동 의혹’ 청문회 달굴 듯",
-          "link": "https://www.khan.co.kr/article/202611061712001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "이용철 법무장관 후보 “검찰개혁 차질없이 완수하겠다”",
-          "link": "https://www.mk.co.kr/news/society/12200764",
-          "source": "경제지형",
-          "main": "R",
-          "tags": [
-            "단정형",
-            "담담형"
           ]
         }
       ]
@@ -54,13 +54,13 @@
       "id": "economy",
       "short": "경제",
       "kicker": "경제 · 성장과 균형",
-      "topic": "코스피 급락 쇼크",
+      "topic": "증시와 개미 투자자",
       "topic_description": "",
       "headlines": [
         {
-          "text": "퍼렇게 질린 코스피, 장중 ‘오천피’ 깨졌다",
-          "link": "https://www.donga.com/news/Economy/article/all/20261107/134982654/2",
-          "source": "종합지형",
+          "text": "“주식 판 돈, 2028년부터 다음날 찾는다는데”…개미들 주의할 ‘이것’",
+          "link": "https://www.mk.co.kr/news/stock/12201558",
+          "source": "경제지형",
           "main": "중립",
           "tags": [
             "단정형",
@@ -68,33 +68,33 @@
           ]
         },
         {
-          "text": "민주, 증시 급락에 긴급 당정…김민석 “개인 투자자 보호·시장 신뢰 회복”",
-          "link": "https://www.hani.co.kr/arti/politics/politics_general/1286188.html",
-          "source": "종합지형",
-          "main": "G",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "파란 쓰나미에 코스피도…외국인들 팔아치운 주식 보니",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832884&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "669개종목 연중 최저가·코스피 이틀간 11% 폭락…숫자로 본 증시급락(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261106071651008",
-          "source": "통신사형",
+          "text": "“코스피에 정말 질렸다”…실망한 개미들 일주일 새 2조 5000억 쓸어담은 ‘이것’",
+          "link": "https://www.mk.co.kr/news/economy/12201494",
+          "source": "경제지형",
           "main": "중립",
           "tags": [
             "수치형",
             "단정형"
+          ]
+        },
+        {
+          "text": "[주간증시전망] ‘블루 웨이브’ 여파 지속… 美 물가·코어위브 실적 ‘주목’",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/11/08/HAYWKMJTMVQTMZRZGA4WGMBSMQ/",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "AI규제·관세·대미투자…불확실성에 불안 증폭",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834635&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
+          "main": "G",
+          "tags": [
+            "단정형",
+            "담담형"
           ]
         }
       ]
@@ -103,12 +103,12 @@
       "id": "society",
       "short": "사회",
       "kicker": "사회 · 공감과 논리",
-      "topic": "은평 스토킹 살인",
+      "topic": "구속 결정",
       "topic_description": "",
       "headlines": [
         {
-          "text": "경찰, 은평 ‘스토킹 살인’ 60대 구속영장 신청",
-          "link": "https://www.hani.co.kr/arti/society/society_general/1286196.html",
+          "text": "‘은평 스토킹 살해’ 60대 남성 구속…법원 “도망 염려”",
+          "link": "https://www.donga.com/news/Society/article/all/20261107/134983740/1",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -117,8 +117,8 @@
           ]
         },
         {
-          "text": "“대화중 화나 살해” 은평 스토킹 살해 남성 범행 인정…경찰, 구속영장 신청 예정",
-          "link": "https://www.khan.co.kr/article/202611061748001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "text": "세브란스병원 의사에 흉기 휘두른 50대 여성 구속…법원 “도망 염려”",
+          "link": "https://www.khan.co.kr/article/202611072136001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -127,23 +127,23 @@
           ]
         },
         {
-          "text": "경찰, 은평 스토킹 살인 60대 남성 구속영장 신청",
-          "link": "https://www.yna.co.kr/view/AKR20261106183500004",
+          "text": "‘은평구 스토킹 살인’ 60대 남성 구속…법원 “도망할 염려”",
+          "link": "https://www.khan.co.kr/article/202611071923001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "처벌형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "'세브란스병원 흉기난동' 50대 여성 구속…법원 \"도망 염려\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261107034551004",
           "source": "통신사형",
           "main": "중립",
           "tags": [
             "처벌형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "역삼 방화-은평 前연인 살해… 고립된 고령층, 원한-갈등이 범죄로",
-          "link": "https://www.donga.com/news/Society/article/all/20261106/134982243/2",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
+            "개인형"
           ]
         }
       ]
@@ -152,12 +152,12 @@
       "id": "culture",
       "short": "문화",
       "kicker": "문화 · 새로움과 깊이",
-      "topic": "책과 문학 소식",
+      "topic": "오늘의 문화 소식",
       "topic_description": "",
       "headlines": [
         {
-          "text": "[책의 향기]유산과 상품 사이, 줄 타는 서울 한옥",
-          "link": "https://www.donga.com/news/Culture/article/all/20261106/134981520/2",
+          "text": "영화를 표적으로 삼는 정치권…영화산업 더 위축시킬라",
+          "link": "https://www.hani.co.kr/arti/economy/economy_general/1286217.html",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -166,9 +166,19 @@
           ]
         },
         {
-          "text": "[책의 향기]노비에서 시인으로… 정초부의 삶",
-          "link": "https://www.donga.com/news/Culture/article/all/20261106/134981509/2",
-          "source": "종합지형",
+          "text": "'신천지' 세 번째 사과…수습책에 반발 확산",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834648&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
+          "main": "중립",
+          "tags": [
+            "개인형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "군함 타보고 군악대 공연 즐기고…해군 1함대 군항 개방 행사",
+          "link": "https://www.yna.co.kr/view/AKR20261107048300062",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
             "단정형",
@@ -176,23 +186,13 @@
           ]
         },
         {
-          "text": "소설 '혼불'의 서도역 걸어볼까…남원시, 주말 '문학 산책' 운영",
-          "link": "https://www.yna.co.kr/view/AKR20261106082000055",
-          "source": "통신사형",
+          "text": "“내 탓 아냐, 죄책감 없어”···제주스 감독, 호날두 은퇴에 책임론 ‘선긋기’",
+          "link": "https://www.khan.co.kr/article/202611070953001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "source": "종합지형",
           "main": "중립",
           "tags": [
-            "개인형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "득점 뒤 수 싸움을 읽다…신간 '재밌어서 밤새 읽는 농구전술책'",
-          "link": "https://www.yna.co.kr/view/AKR20261106075400007",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "개인형",
-            "단정형"
+            "단정형",
+            "담담형"
           ]
         }
       ]
