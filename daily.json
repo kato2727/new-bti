@@ -1,50 +1,50 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "categories": [
     {
       "id": "politics",
       "short": "정치",
       "kicker": "정치 · 제도와 변화",
-      "topic": "조작기소 특검법",
+      "topic": "종부세 공제 14억",
       "topic_description": "",
       "headlines": [
         {
-          "text": "[포토] “대통령도 잘못하면 감옥 가야”…국힘, 조작기소 특검법 규탄",
-          "link": "https://www.hani.co.kr/arti/politics/politics_general/1286242.html",
+          "text": "민주 “비거주 1주택도 종부세 공제 14억, 정부에 강력 요구”",
+          "link": "https://www.hani.co.kr/arti/politics/politics_general/1286355.html",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "수치형",
+            "책임형"
           ]
         },
         {
-          "text": "“조작기소 특검법은 ‘이재명 탈옥법’”…거리 나선 국힘, ‘탄핵’ 거론",
-          "link": "https://www.hani.co.kr/arti/politics/politics_general/1286236.html",
+          "text": "與 서울 의원들 제안에도…靑, 비거주 종부세 14억 거부",
+          "link": "https://www.mk.co.kr/news/politics/12201937",
+          "source": "경제지형",
+          "main": "중립",
+          "tags": [
+            "수치형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "與 \"정부에 '실거주 구분 없이 종부세 공제 14억' 강력히 요구\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261108048252001",
+          "source": "통신사형",
+          "main": "중립",
+          "tags": [
+            "수치형",
+            "책임형"
+          ]
+        },
+        {
+          "text": "당정, 소방 재정 최소 2조 지원···여당 ‘종부세 공제 14억 통일’ 요청",
+          "link": "https://www.khan.co.kr/article/202611082057001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "국힘, '조작기소특검법 규탄' 장외집회…張 \"李대통령 탄핵해야\"",
-          "link": "https://www.yna.co.kr/view/AKR20261107043800001",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "책임형",
-            "개인형"
-          ]
-        },
-        {
-          "text": "조작기소 특검법안, 與주도로 국회통과…국힘 \"이재명 방탄악법\"(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261106131151001",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "개인형",
+            "수치형",
             "단정형"
           ]
         }
@@ -54,44 +54,44 @@
       "id": "economy",
       "short": "경제",
       "kicker": "경제 · 성장과 균형",
-      "topic": "증시와 개미 투자자",
+      "topic": "소방 필수투자 2조원 재정지원",
       "topic_description": "",
       "headlines": [
         {
-          "text": "“주식 판 돈, 2028년부터 다음날 찾는다는데”…개미들 주의할 ‘이것’",
-          "link": "https://www.mk.co.kr/news/stock/12201558",
+          "text": "[속보] 당정 “소방 필수투자에 2조원 재정지원…지방부담 완화 검토”",
+          "link": "https://www.mk.co.kr/news/politics/12201927",
           "source": "경제지형",
-          "main": "중립",
+          "main": "B",
           "tags": [
             "단정형",
             "담담형"
           ]
         },
         {
-          "text": "“코스피에 정말 질렸다”…실망한 개미들 일주일 새 2조 5000억 쓸어담은 ‘이것’",
-          "link": "https://www.mk.co.kr/news/economy/12201494",
-          "source": "경제지형",
-          "main": "중립",
+          "text": "당정 \"소방 필수 투자에 2조원 재정지원…지방부담 완화 검토\"",
+          "link": "https://www.yna.co.kr/view/AKR20261108047200001",
+          "source": "통신사형",
+          "main": "B",
           "tags": [
-            "수치형",
+            "개인형",
             "단정형"
           ]
         },
         {
-          "text": "[주간증시전망] ‘블루 웨이브’ 여파 지속… 美 물가·코어위브 실적 ‘주목’",
-          "link": "https://www.chosun.com/economy/stock-finance/2026/11/08/HAYWKMJTMVQTMZRZGA4WGMBSMQ/",
-          "source": "종합지형",
-          "main": "중립",
+          "text": "“당정, 소방 필수 투자 2조 원 재정 지원…지방정부 부담 완화 방안 검토”",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIdHFiMnBJZnF6MnUxTW44RGFGaXZfTWtPWUxKOEI5enJTdFZoek5xQ2U3NkNwM0N6WWlrcTNsbFl0ajVkS0tHaG1XNVJvVGpSMzBxYWh3Q211MVk?oc=5",
+          "source": "방송사형",
+          "main": "B",
           "tags": [
             "단정형",
             "담담형"
           ]
         },
         {
-          "text": "AI규제·관세·대미투자…불확실성에 불안 증폭",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834635&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
-          "main": "G",
+          "text": "당정, 소방 필수 투자에 2조원 지원 검토…지방재정 부담 완화 추진",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBd0dTQmxIRXBHYjRENnB6RklLcnhvX2hfMTFKQjNVVU4zUjNrV1hwekVHZm13Y3VWUUhYRDFDZ2laQ1IyMm1zU1VRQnI1aktEd1UtT01jXzY5dnY2UTZPMTRwdDYwUWVqa3fSAW5BVV95cUxPVnpTeTlJYXFKbm5mWUN3c0dZajMxNENKSlhXcHZ4NkcyNXBRb2FNXzExNzVWdkZpNFM1eF9fQzlMd190bl80cXVzSGNIWjlrWEdMYnJ6M3AzLWtrOXc5VXNTanhmanQyXzVjZFl3QQ?oc=5",
+          "source": "종합지형",
+          "main": "B",
           "tags": [
             "단정형",
             "담담형"
@@ -103,47 +103,47 @@
       "id": "society",
       "short": "사회",
       "kicker": "사회 · 공감과 논리",
-      "topic": "구속 결정",
+      "topic": "HD현대삼호 20대 노동자 사망",
       "topic_description": "",
       "headlines": [
         {
-          "text": "‘은평 스토킹 살해’ 60대 남성 구속…법원 “도망 염려”",
-          "link": "https://www.donga.com/news/Society/article/all/20261107/134983740/1",
+          "text": "HD현대그룹 올해 9번째 사망사고…2주 만에 또 20대 노동자 숨져",
+          "link": "https://www.chosun.com/economy/realty/realestate_industry/2026/11/09/GNSDKNTBG44DKZBUGBSDIOJQGY/",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "처벌형",
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "HD현대삼호 28세 하청노동자 사망…최근 3년간 4명 숨져, 김재을 대표 체제서 3명",
+          "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPd19FSnVQeElZZFNBM2NiMXB2RWhFTEFHb2Z0UEx2b1Z3T1I4amdkOFZfMktGd2M2VFVnbXBBVFBYbUVYckNqTm9TRGN1UUUtWkVqZ1AxWWtkVnZUNjFTQ1QwcldQdjdrdFNxaW5FaHdwV1dOZTNpZUwwMVN4V3VCWHlxVGZ4cXdhT2RkUnVOS2hkTF9XWHRLNjdiYlk2Wk1oNDVKXzlvMmtwN1ZfMGVoVGRwRGVQUDEwSEFGbUM5UFVsRG5lQzNvZUlNdDFaNmNyaHhJUmU4WmJjSUJack9VUC1iRzJ4VUIxc09mQUNvR21RUTJVZ3pwdlM1VHU1UWhiUnJUTzU5YXRsTWFHVGFjZ0VSb3VSX1FjZHBOSXFhNkhYNVEwbEZFZV9hNzBBX1E?oc=5",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "현대삼호 20대 노동자 사망 '2인 1조' 위반…경찰 중대재해 조사",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uTVpEZ2E1a1RPWTBNZDFsTzlXaHJuYmNOcktwVVVYTklmRkxsbmZXUF84djJSekRPbGV3cmpFLW5QR19McnhmOUN5RjVTbjM2Q1E5WWZGWWRrYjNm?oc=5",
+          "source": "경제지형",
+          "main": "L",
+          "tags": [
+            "개인형",
             "단정형"
           ]
         },
         {
-          "text": "세브란스병원 의사에 흉기 휘두른 50대 여성 구속…법원 “도망 염려”",
-          "link": "https://www.khan.co.kr/article/202611072136001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "text": "민노총 전남본부 “HD현대삼호중공업 사망사고 진상 규명·재발방지책 마련해야”",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrc0pNMUNmaTl2RmV6cHRBUVJWOWxzR0FYZXZ5UkRxNXdBVjRISnBtNndIWE91ZXF5WG0tRlZaMUU1OXpjRXlQY0NxSHNWaVdaYkwwOTh3TUN2czhFSmJjS0Zadl8?oc=5",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "처벌형",
+            "책임형",
             "단정형"
-          ]
-        },
-        {
-          "text": "‘은평구 스토킹 살인’ 60대 남성 구속…법원 “도망할 염려”",
-          "link": "https://www.khan.co.kr/article/202611071923001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "처벌형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "'세브란스병원 흉기난동' 50대 여성 구속…법원 \"도망 염려\"(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261107034551004",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "처벌형",
-            "개인형"
           ]
         }
       ]
@@ -152,12 +152,12 @@
       "id": "culture",
       "short": "문화",
       "kicker": "문화 · 새로움과 깊이",
-      "topic": "오늘의 문화 소식",
+      "topic": "김영빈 감독 별세",
       "topic_description": "",
       "headlines": [
         {
-          "text": "영화를 표적으로 삼는 정치권…영화산업 더 위축시킬라",
-          "link": "https://www.hani.co.kr/arti/economy/economy_general/1286217.html",
+          "text": "영화 ‘김의 전쟁’, ‘테러리스트’ 김영빈 감독 별세",
+          "link": "https://www.hani.co.kr/arti/culture/culture_general/1286350.html",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -166,9 +166,9 @@
           ]
         },
         {
-          "text": "'신천지' 세 번째 사과…수습책에 반발 확산",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834648&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
+          "text": "영화 '김의 전쟁'·'테러리스트' 김영빈 감독 별세",
+          "link": "https://www.yna.co.kr/view/AKR20261108047000005",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
             "개인형",
@@ -176,18 +176,18 @@
           ]
         },
         {
-          "text": "군함 타보고 군악대 공연 즐기고…해군 1함대 군항 개방 행사",
-          "link": "https://www.yna.co.kr/view/AKR20261107048300062",
-          "source": "통신사형",
+          "text": "'테러리스트' 연출한 김영빈 영화감독 별세…향년 71세",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE11X09WUFU0ZWtjMEN1aURiSEhiWEljeF85RndkNDhPM1EteEtqSnV5VHEweU9LOE5XWmE2T2c1SUMwMGVmOVNkalVxbHF4WFl5RVR3QzFJR1J3cGlKSFZyU2dhZVpsWXN3N25taWZIdkdpN2vSAXhBVV95cUxOcmZPRXJpRUZrRlVNTF9NZlBBSENMcjBSWFhQX2JBeEo5NERHQTM0U1NRbXRLUGlOSG5KMGFXYTcwSzVOdDVzWjRkeWZ3RGhHVV9ER0lNd21CZE4wbTF3SGplOEc4bGhma3h4b01CTWVJOFByYXdDaTY?oc=5",
+          "source": "경제지형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "개인형",
+            "단정형"
           ]
         },
         {
-          "text": "“내 탓 아냐, 죄책감 없어”···제주스 감독, 호날두 은퇴에 책임론 ‘선긋기’",
-          "link": "https://www.khan.co.kr/article/202611070953001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "text": "‘테러리스트’ 김영빈 감독, 오늘(8일) 급환으로 향년 71세에 별세",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BSm5QYXdRLXZvMzBUUEhfWGlKUTh1LTVXMmJWWWFDRkFPanNKQ3o4Tjh1UDhWa0NCSU9HTms1VzdUWkdtcUE2Nl9Xb1dSZGNhSDE0c3ZONEthYkRPYXV5UkdPR2wzM0Vid3ZuQ29tWTZzZw?oc=5",
           "source": "종합지형",
           "main": "중립",
           "tags": [
