@@ -1,51 +1,50 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "categories": [
     {
       "id": "politics",
       "short": "정치",
       "kicker": "정치 · 제도와 변화",
-      "topic": "종부세 공제 14억",
-      "topic_description": "",
+      "topic": "미국 의회·특검",
       "headlines": [
         {
-          "text": "민주 “비거주 1주택도 종부세 공제 14억, 정부에 강력 요구”",
-          "link": "https://www.hani.co.kr/arti/politics/politics_general/1286355.html",
+          "text": "‘쿠팡 보고서’ 주도한 美강경파 의원, 공화당 운전대 잡나… 10일 경선",
+          "link": "https://www.chosun.com/international/us/2026/11/10/HCKLC7ZZHFBYBGFUVLFH45B67I/",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "수치형",
-            "책임형"
+            "단정형",
+            "담담형"
           ]
         },
         {
-          "text": "與 서울 의원들 제안에도…靑, 비거주 종부세 14억 거부",
-          "link": "https://www.mk.co.kr/news/politics/12201937",
+          "text": "대통령 측근부터 노린다…선거로 힘 받은 민주당, 탄핵 첫 표적은 美국방장관",
+          "link": "https://www.mk.co.kr/news/world/12203221",
           "source": "경제지형",
           "main": "중립",
           "tags": [
-            "수치형",
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "'트럼프의 마이웨이' 속내는…높아진 외교 난도",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837866&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
+          "main": "중립",
+          "tags": [
+            "개인형",
             "단정형"
           ]
         },
         {
-          "text": "與 \"정부에 '실거주 구분 없이 종부세 공제 14억' 강력히 요구\"(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261108048252001",
+          "text": "국힘, 청와대 앞 의원총회…'조작기소 특검법' 거부권 촉구",
+          "link": "https://www.yna.co.kr/view/AKR20261109126800001",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "수치형",
-            "책임형"
-          ]
-        },
-        {
-          "text": "당정, 소방 재정 최소 2조 지원···여당 ‘종부세 공제 14억 통일’ 요청",
-          "link": "https://www.khan.co.kr/article/202611082057001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "수치형",
-            "단정형"
+            "책임형",
+            "개인형"
           ]
         }
       ]
@@ -54,47 +53,46 @@
       "id": "economy",
       "short": "경제",
       "kicker": "경제 · 성장과 균형",
-      "topic": "소방 필수투자 2조원 재정지원",
-      "topic_description": "",
+      "topic": "부동산·세금",
       "headlines": [
         {
-          "text": "[속보] 당정 “소방 필수투자에 2조원 재정지원…지방부담 완화 검토”",
-          "link": "https://www.mk.co.kr/news/politics/12201927",
-          "source": "경제지형",
-          "main": "B",
+          "text": "'부동산 지라시'와의 전쟁…국토부, 백전백패한 이유는",
+          "link": "https://www.chosun.com/economy/realty/realestate_news/2026/11/10/HFSDMMDCGRRGGZBWGNSDSNRSG4/",
+          "source": "종합지형",
+          "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "원인형",
+            "개인형"
           ]
         },
         {
-          "text": "당정 \"소방 필수 투자에 2조원 재정지원…지방부담 완화 검토\"",
-          "link": "https://www.yna.co.kr/view/AKR20261108047200001",
-          "source": "통신사형",
-          "main": "B",
+          "text": "‘일본의 팔란티어’로 불리는 AI 기업, 왜 주차장 회사를 샀을까? [JAPAN CLOSER]",
+          "link": "https://www.mk.co.kr/news/world/12202440",
+          "source": "경제지형",
+          "main": "중립",
+          "tags": [
+            "의문형",
+            "원인형"
+          ]
+        },
+        {
+          "text": "실거주와 세금 차이는?…\"거주하고 싶어도\" 속사정도",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837870&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
+          "main": "중립",
           "tags": [
             "개인형",
             "단정형"
           ]
         },
         {
-          "text": "“당정, 소방 필수 투자 2조 원 재정 지원…지방정부 부담 완화 방안 검토”",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIdHFiMnBJZnF6MnUxTW44RGFGaXZfTWtPWUxKOEI5enJTdFZoek5xQ2U3NkNwM0N6WWlrcTNsbFl0ajVkS0tHaG1XNVJvVGpSMzBxYWh3Q211MVk?oc=5",
-          "source": "방송사형",
-          "main": "B",
+          "text": "전국 교육청 내년 예산 4조8천억원 미편성…사업비가 74%",
+          "link": "https://www.yna.co.kr/view/AKR20261109148800530",
+          "source": "통신사형",
+          "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "당정, 소방 필수 투자에 2조원 지원 검토…지방재정 부담 완화 추진",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBd0dTQmxIRXBHYjRENnB6RklLcnhvX2hfMTFKQjNVVU4zUjNrV1hwekVHZm13Y3VWUUhYRDFDZ2laQ1IyMm1zU1VRQnI1aktEd1UtT01jXzY5dnY2UTZPMTRwdDYwUWVqa3fSAW5BVV95cUxPVnpTeTlJYXFKbm5mWUN3c0dZajMxNENKSlhXcHZ4NkcyNXBRb2FNXzExNzVWdkZpNFM1eF9fQzlMd190bl80cXVzSGNIWjlrWEdMYnJ6M3AzLWtrOXc5VXNTanhmanQyXzVjZFl3QQ?oc=5",
-          "source": "종합지형",
-          "main": "B",
-          "tags": [
-            "단정형",
-            "담담형"
+            "수치형",
+            "단정형"
           ]
         }
       ]
@@ -103,12 +101,11 @@
       "id": "society",
       "short": "사회",
       "kicker": "사회 · 공감과 논리",
-      "topic": "HD현대삼호 20대 노동자 사망",
-      "topic_description": "",
+      "topic": "학교·노동",
       "headlines": [
         {
-          "text": "HD현대그룹 올해 9번째 사망사고…2주 만에 또 20대 노동자 숨져",
-          "link": "https://www.chosun.com/economy/realty/realestate_industry/2026/11/09/GNSDKNTBG44DKZBUGBSDIOJQGY/",
+          "text": "사관학교 통합 반발에… 육사만 지방 이전, 해사-공사 존치 검토",
+          "link": "https://www.donga.com/news/Politics/article/all/20261110/134995929/2",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -117,9 +114,9 @@
           ]
         },
         {
-          "text": "HD현대삼호 28세 하청노동자 사망…최근 3년간 4명 숨져, 김재을 대표 체제서 3명",
-          "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPd19FSnVQeElZZFNBM2NiMXB2RWhFTEFHb2Z0UEx2b1Z3T1I4amdkOFZfMktGd2M2VFVnbXBBVFBYbUVYckNqTm9TRGN1UUUtWkVqZ1AxWWtkVnZUNjFTQ1QwcldQdjdrdFNxaW5FaHdwV1dOZTNpZUwwMVN4V3VCWHlxVGZ4cXdhT2RkUnVOS2hkTF9XWHRLNjdiYlk2Wk1oNDVKXzlvMmtwN1ZfMGVoVGRwRGVQUDEwSEFGbUM5UFVsRG5lQzNvZUlNdDFaNmNyaHhJUmU4WmJjSUJack9VUC1iRzJ4VUIxc09mQUNvR21RUTJVZ3pwdlM1VHU1UWhiUnJUTzU5YXRsTWFHVGFjZ0VSb3VSX1FjZHBOSXFhNkhYNVEwbEZFZV9hNzBBX1E?oc=5",
-          "source": "종합지형",
+          "text": "학교 비정규직 27일 총파업 예고…교부금 개편 반발",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837886&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
           "main": "중립",
           "tags": [
             "단정형",
@@ -127,47 +124,8 @@
           ]
         },
         {
-          "text": "현대삼호 20대 노동자 사망 '2인 1조' 위반…경찰 중대재해 조사",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uTVpEZ2E1a1RPWTBNZDFsTzlXaHJuYmNOcktwVVVYTklmRkxsbmZXUF84djJSekRPbGV3cmpFLW5QR19McnhmOUN5RjVTbjM2Q1E5WWZGWWRrYjNm?oc=5",
-          "source": "경제지형",
-          "main": "L",
-          "tags": [
-            "개인형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "민노총 전남본부 “HD현대삼호중공업 사망사고 진상 규명·재발방지책 마련해야”",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrc0pNMUNmaTl2RmV6cHRBUVJWOWxzR0FYZXZ5UkRxNXdBVjRISnBtNndIWE91ZXF5WG0tRlZaMUU1OXpjRXlQY0NxSHNWaVdaYkwwOTh3TUN2czhFSmJjS0Zadl8?oc=5",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "책임형",
-            "단정형"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "culture",
-      "short": "문화",
-      "kicker": "문화 · 새로움과 깊이",
-      "topic": "김영빈 감독 별세",
-      "topic_description": "",
-      "headlines": [
-        {
-          "text": "영화 ‘김의 전쟁’, ‘테러리스트’ 김영빈 감독 별세",
-          "link": "https://www.hani.co.kr/arti/culture/culture_general/1286350.html",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "영화 '김의 전쟁'·'테러리스트' 김영빈 감독 별세",
-          "link": "https://www.yna.co.kr/view/AKR20261108047000005",
+          "text": "노동장관 \"초광역특구법 비정규직 양산, 사회적 대화서 다룰 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20261109132900001",
           "source": "통신사형",
           "main": "중립",
           "tags": [
@@ -176,9 +134,27 @@
           ]
         },
         {
-          "text": "'테러리스트' 연출한 김영빈 영화감독 별세…향년 71세",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE11X09WUFU0ZWtjMEN1aURiSEhiWEljeF85RndkNDhPM1EteEtqSnV5VHEweU9LOE5XWmE2T2c1SUMwMGVmOVNkalVxbHF4WFl5RVR3QzFJR1J3cGlKSFZyU2dhZVpsWXN3N25taWZIdkdpN2vSAXhBVV95cUxOcmZPRXJpRUZrRlVNTF9NZlBBSENMcjBSWFhQX2JBeEo5NERHQTM0U1NRbXRLUGlOSG5KMGFXYTcwSzVOdDVzWjRkeWZ3RGhHVV9ER0lNd21CZE4wbTF3SGplOEc4bGhma3h4b01CTWVJOFByYXdDaTY?oc=5",
-          "source": "경제지형",
+          "text": "‘부천 화재 순직’ 故 김진석 소방위 추모명패 헌정",
+          "link": "https://www.donga.com/news/People/article/all/20261110/134995587/2",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "short": "문화",
+      "kicker": "문화 · 새로움과 깊이",
+      "topic": "영화·공연·전시",
+      "headlines": [
+        {
+          "text": "전도연 \"영화 다시 보니 미옥처럼 보여…달의 의미도 새롭게 찾아\"",
+          "link": "https://www.yna.co.kr/view/AKR20261109122000005",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
             "개인형",
@@ -186,9 +162,29 @@
           ]
         },
         {
-          "text": "‘테러리스트’ 김영빈 감독, 오늘(8일) 급환으로 향년 71세에 별세",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BSm5QYXdRLXZvMzBUUEhfWGlKUTh1LTVXMmJWWWFDRkFPanNKQ3o4Tjh1UDhWa0NCSU9HTms1VzdUWkdtcUE2Nl9Xb1dSZGNhSDE0c3ZONEthYkRPYXV5UkdPR2wzM0Vid3ZuQ29tWTZzZw?oc=5",
+          "text": "“K팝 산업 왜곡”…대중음악산업협회, NYT 뉴진스 계약 보도에 ‘깊은 유감’",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVDdkOVpoTXIzazQySnNneUJwZ2FMM1ltbGc4UUR5TEtXeXhFU3dyeW9MM3d6Ty1jUUFya1pMa1k1eU1PQnZsNGtyWFZ2dlJRSEh5WUlObGFNRW9mVXg5amRlQVZPN3k0Y0loeWtqU2tObE02cmZhVk9KeTlsajdnQUdNQlRtU2dpU3pkczJ3dXXSAaQBQVVfeXFMTXJiLWFuZEQ2RThTMi1GYVpzbjk1SUxfWWVEampaTmItTDRMN3VHdUlLczNvZ3RXZUpFeDh6ZEdqM0ZsZ1RWX0J5bDF4bmsxYWtZN1N5TXJ0akdzRkN4Y2JSaWtJWUtDNy1WVjB0cnA0ME5VRWMxbXlJS2NMd1NBbEpaclhHdEs1b2t5cVdlNndhb3FFRWVBd25NNGp5aThMeGhxTEk?oc=5",
           "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "원인형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "마산가고파국화축제 폐막했지만 국화작품 15일까지 연장 전시",
+          "link": "https://www.yna.co.kr/view/AKR20261109130900052",
+          "source": "통신사형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "춘천서 쇼스타코비치 탄생 120주년 기념 실내악 공연 20일 개최",
+          "link": "https://www.yna.co.kr/view/AKR20261109112300062",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
             "단정형",
