@@ -1,15 +1,16 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "categories": [
     {
       "id": "politics",
       "short": "정치",
       "kicker": "정치 · 제도와 변화",
-      "topic": "미국 의회·특검",
+      "topic": "종부세 실거주 우대 논란",
+      "topic_description": "",
       "headlines": [
         {
-          "text": "‘쿠팡 보고서’ 주도한 美강경파 의원, 공화당 운전대 잡나… 10일 경선",
-          "link": "https://www.chosun.com/international/us/2026/11/10/HCKLC7ZZHFBYBGFUVLFH45B67I/",
+          "text": "이형일 “종부세 실거주 우대” 수정 선그어…李대통령, 오늘 與 김민석-한병도와 만찬",
+          "link": "https://www.donga.com/news/Politics/article/all/20261111/135003004/2",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -18,9 +19,9 @@
           ]
         },
         {
-          "text": "대통령 측근부터 노린다…선거로 힘 받은 민주당, 탄핵 첫 표적은 美국방장관",
-          "link": "https://www.mk.co.kr/news/world/12203221",
-          "source": "경제지형",
+          "text": "李대통령, 내일 김민석·한병도와 만찬…부동산 논의 등 주목",
+          "link": "https://www.yna.co.kr/view/AKR20261110179600001",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
             "단정형",
@@ -28,51 +29,13 @@
           ]
         },
         {
-          "text": "'트럼프의 마이웨이' 속내는…높아진 외교 난도",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837866&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
-          "main": "중립",
-          "tags": [
-            "개인형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "국힘, 청와대 앞 의원총회…'조작기소 특검법' 거부권 촉구",
-          "link": "https://www.yna.co.kr/view/AKR20261109126800001",
+          "text": "거주-비거주 차등원칙 견지한 정부…이형일 \"실거주 우대해야\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261110162851001",
           "source": "통신사형",
           "main": "중립",
           "tags": [
             "책임형",
             "개인형"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "economy",
-      "short": "경제",
-      "kicker": "경제 · 성장과 균형",
-      "topic": "부동산·세금",
-      "headlines": [
-        {
-          "text": "'부동산 지라시'와의 전쟁…국토부, 백전백패한 이유는",
-          "link": "https://www.chosun.com/economy/realty/realestate_news/2026/11/10/HFSDMMDCGRRGGZBWGNSDSNRSG4/",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "원인형",
-            "개인형"
-          ]
-        },
-        {
-          "text": "‘일본의 팔란티어’로 불리는 AI 기업, 왜 주차장 회사를 샀을까? [JAPAN CLOSER]",
-          "link": "https://www.mk.co.kr/news/world/12202440",
-          "source": "경제지형",
-          "main": "중립",
-          "tags": [
-            "의문형",
-            "원인형"
           ]
         },
         {
@@ -84,15 +47,54 @@
             "개인형",
             "단정형"
           ]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "short": "경제",
+      "kicker": "경제 · 성장과 균형",
+      "topic": "금융보안원 해킹 정보 유출",
+      "topic_description": "",
+      "headlines": [
+        {
+          "text": "금융보안원마저 뚫렸다…해킹에 금융사 정보 유출",
+          "link": "https://www.hani.co.kr/arti/economy/finance/1286705.html",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
         },
         {
-          "text": "전국 교육청 내년 예산 4조8천억원 미편성…사업비가 74%",
-          "link": "https://www.yna.co.kr/view/AKR20261109148800530",
+          "text": "‘디지털 보안 총괄’ 금융보안원도 뚫렸다",
+          "link": "https://www.donga.com/news/Economy/article/all/20261111/135002955/2",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "'금융보안 문지기' 금융보안원도 해킹으로 정보 유출",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008839756&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
+          "main": "중립",
+          "tags": [
+            "개인형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "금융보안원도 해킹에 뚫려…금융사 직원 개인정보 300여건 유출(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261110174751002",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "수치형",
-            "단정형"
+            "단정형",
+            "담담형"
           ]
         }
       ]
@@ -101,43 +103,44 @@
       "id": "society",
       "short": "사회",
       "kicker": "사회 · 공감과 논리",
-      "topic": "학교·노동",
+      "topic": "천마총 발굴 김동현 별세",
+      "topic_description": "",
       "headlines": [
         {
-          "text": "사관학교 통합 반발에… 육사만 지방 이전, 해사-공사 존치 검토",
-          "link": "https://www.donga.com/news/Politics/article/all/20261110/134995929/2",
+          "text": "[부고]천마총 발굴 김동현 前문화재연구소장",
+          "link": "https://www.donga.com/news/People/article/all/20261111/135002712/2",
           "source": "종합지형",
-          "main": "중립",
+          "main": "L",
           "tags": [
             "단정형",
             "담담형"
           ]
         },
         {
-          "text": "학교 비정규직 27일 총파업 예고…교부금 개편 반발",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837886&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
-          "main": "중립",
+          "text": "천마총 금관 발굴 이끈 주역 … 김동현 前문화재연구소장 별세",
+          "link": "https://www.mk.co.kr/news/culture/12204506",
+          "source": "경제지형",
+          "main": "L",
           "tags": [
             "단정형",
             "담담형"
           ]
         },
         {
-          "text": "노동장관 \"초광역특구법 비정규직 양산, 사회적 대화서 다룰 것\"",
-          "link": "https://www.yna.co.kr/view/AKR20261109132900001",
+          "text": "천마총 금관 들어올린 주역…김동현 전 국립문화재연구소장 별세(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261110131151005",
           "source": "통신사형",
-          "main": "중립",
+          "main": "L",
           "tags": [
-            "개인형",
-            "단정형"
+            "단정형",
+            "담담형"
           ]
         },
         {
-          "text": "‘부천 화재 순직’ 故 김진석 소방위 추모명패 헌정",
-          "link": "https://www.donga.com/news/People/article/all/20261110/134995587/2",
-          "source": "종합지형",
-          "main": "중립",
+          "text": "‘천마총 발굴’ 김동현 전 문화재연구소장 별세",
+          "link": "https://www.mk.co.kr/news/culture/12204285",
+          "source": "경제지형",
+          "main": "L",
           "tags": [
             "단정형",
             "담담형"
@@ -149,11 +152,22 @@
       "id": "culture",
       "short": "문화",
       "kicker": "문화 · 새로움과 깊이",
-      "topic": "영화·공연·전시",
+      "topic": "공연·축제 소식",
+      "topic_description": "",
       "headlines": [
         {
-          "text": "전도연 \"영화 다시 보니 미옥처럼 보여…달의 의미도 새롭게 찾아\"",
-          "link": "https://www.yna.co.kr/view/AKR20261109122000005",
+          "text": "“예술에 은퇴는 없다”… 백건우, 65세 연하 후배들과 한 무대",
+          "link": "https://www.chosun.com/culture-life/culture_general/2026/11/11/3Y3QEPCC2ZHTLAE2P6H5HOPF2A/",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "\"도심서 펼쳐지는 무대\" 광주국제거리예술축제 13일 개막",
+          "link": "https://www.yna.co.kr/view/AKR20261110151000054",
           "source": "통신사형",
           "main": "중립",
           "tags": [
@@ -162,33 +176,23 @@
           ]
         },
         {
-          "text": "“K팝 산업 왜곡”…대중음악산업협회, NYT 뉴진스 계약 보도에 ‘깊은 유감’",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVDdkOVpoTXIzazQySnNneUJwZ2FMM1ltbGc4UUR5TEtXeXhFU3dyeW9MM3d6Ty1jUUFya1pMa1k1eU1PQnZsNGtyWFZ2dlJRSEh5WUlObGFNRW9mVXg5amRlQVZPN3k0Y0loeWtqU2tObE02cmZhVk9KeTlsajdnQUdNQlRtU2dpU3pkczJ3dXXSAaQBQVVfeXFMTXJiLWFuZEQ2RThTMi1GYVpzbjk1SUxfWWVEampaTmItTDRMN3VHdUlLczNvZ3RXZUpFeDh6ZEdqM0ZsZ1RWX0J5bDF4bmsxYWtZN1N5TXJ0akdzRkN4Y2JSaWtJWUtDNy1WVjB0cnA0ME5VRWMxbXlJS2NMd1NBbEpaclhHdEs1b2t5cVdlNndhb3FFRWVBd25NNGp5aThMeGhxTEk?oc=5",
-          "source": "종합지형",
+          "text": "'AI, 감각을 열다' 제주 장애예술창작페스타 13일 개막",
+          "link": "https://www.yna.co.kr/view/AKR20261110150100056",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
-            "원인형",
+            "개인형",
             "단정형"
           ]
         },
         {
-          "text": "마산가고파국화축제 폐막했지만 국화작품 15일까지 연장 전시",
-          "link": "https://www.yna.co.kr/view/AKR20261109130900052",
+          "text": "서울시국악관현악단, 내달 '송년 음악회'…이희문·서도 등 협연",
+          "link": "https://www.yna.co.kr/view/AKR20261110090500005",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "춘천서 쇼스타코비치 탄생 120주년 기념 실내악 공연 20일 개최",
-          "link": "https://www.yna.co.kr/view/AKR20261109112300062",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
+            "개인형",
+            "단정형"
           ]
         }
       ]
