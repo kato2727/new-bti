@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "categories": [
     {
       "id": "politics",
       "short": "정치",
       "kicker": "정치 · 제도와 변화",
-      "topic": "당정 만찬과 종부세 갑론을박",
+      "topic": "최민희 '尹탄핵 반대' 발언 논란",
       "topic_description": "",
       "headlines": [
         {
-          "text": "이 대통령, 김민석 대표와 만찬서 “당정 한마음 한뜻으로 움직여야”",
-          "link": "https://www.hani.co.kr/arti/politics/politics_general/1286898.html",
+          "text": "최민희 “이 대통령, 윤석열 탄핵 반대” 또 실언 논란…여, 감찰 지시",
+          "link": "https://www.khan.co.kr/article/202611122114015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -19,33 +19,33 @@
           ]
         },
         {
-          "text": "“종부세 ‘종’ 자도 안 나왔다”는 청와대 만찬···이 대통령, 여 지도부에 “당정 한마음 한뜻 움직여야”",
-          "link": "https://www.khan.co.kr/article/202611112208001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "source": "종합지형",
+          "text": "\"李, 尹탄핵 반대\" 최민희에 청와대·與 일제히 강경대응",
+          "link": "https://www.mk.co.kr/news/politics/12207146",
+          "source": "경제지형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "개인형",
+            "단정형"
           ]
         },
         {
-          "text": "李대통령 \"당정 한마음 움직여야\"…김민석 \"양극화 대책 필요\"(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261111180451001",
+          "text": "신천지 갈등 속 尹탄핵발언 논란 '최민희 감찰'…與계파 대립 새국면",
+          "link": "https://www.yna.co.kr/view/AKR20261112183100001",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "책임형",
-            "개인형"
+            "개인형",
+            "단정형"
           ]
         },
         {
-          "text": "'14억' 입단속 주의보?…의원 11명 중 4명만 참석",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008841687&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
+          "text": "“이 대통령, 尹 탄핵 반대했다” 與최민희 발언에…청와대 “사실무근”",
+          "link": "https://www.mk.co.kr/news/politics/12206903",
+          "source": "경제지형",
           "main": "중립",
           "tags": [
-            "수치형",
-            "개인형"
+            "단정형",
+            "담담형"
           ]
         }
       ]
@@ -54,12 +54,32 @@
       "id": "economy",
       "short": "경제",
       "kicker": "경제 · 성장과 균형",
-      "topic": "美 빅스텝 우려와 증시",
+      "topic": "젠슨 황 엔비디아 CEO 사임",
       "topic_description": "",
       "headlines": [
         {
-          "text": "美빅스텝 우려에도 코스피 2.6%·코스닥 5.6%↑…외국인 '사자'(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261111135351008",
+          "text": "[속보]젠슨 황, 결국 엔비디아 CEO 사임···회사 주가는 개장 전 10% 이상 급락",
+          "link": "https://www.khan.co.kr/article/202611122259001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "수치형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "[속보] 엔비디아, 젠슨황 사임에 뉴욕증시서 13% 급락 출발",
+          "link": "https://www.mk.co.kr/news/stock/12207212",
+          "source": "경제지형",
+          "main": "중립",
+          "tags": [
+            "수치형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "'젠슨황 해임위기'가 악재로?…코스피, 오락가락 등락하다 0.6%↓(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261112138051008",
           "source": "통신사형",
           "main": "중립",
           "tags": [
@@ -68,33 +88,13 @@
           ]
         },
         {
-          "text": "미국 '빅스텝' 우려 속 국고채 금리 급등…3년물 연 3.729%(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261111150551008",
-          "source": "통신사형",
-          "main": "G",
-          "tags": [
-            "수치형",
-            "개인형"
-          ]
-        },
-        {
-          "text": "코스피 웃었지만…겁에 질린 개미는 '팔자'",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008839739&plink=RSSLINK&cooper=RSSREADER",
+          "text": "젠슨 황은 '대체 불가'?…이사회가 계속 지켜줄까",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008841682&plink=RSSLINK&cooper=RSSREADER",
           "source": "방송사형",
           "main": "중립",
           "tags": [
             "개인형",
             "단정형"
-          ]
-        },
-        {
-          "text": "주식 투자 선수들이라더니 … 액티브 ETF, 지수도 못 이겼다",
-          "link": "https://www.mk.co.kr/news/stock/12205437",
-          "source": "경제지형",
-          "main": "G",
-          "tags": [
-            "단정형",
-            "담담형"
           ]
         }
       ]
@@ -103,12 +103,12 @@
       "id": "society",
       "short": "사회",
       "kicker": "사회 · 공감과 논리",
-      "topic": "성북구 10대 여성 살해 사건",
+      "topic": "전태일 56주기와 노동",
       "topic_description": "",
       "headlines": [
         {
-          "text": "성폭력 피해 10대 여성 피살…성평등장관 “공적체계서 지키지 못해”",
-          "link": "https://www.hani.co.kr/arti/society/rights/1286901.html",
+          "text": "[포토뉴스]전태일 열사 56주기…동상 앞 지나는 노동자",
+          "link": "https://www.khan.co.kr/article/202611122110005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -117,33 +117,33 @@
           ]
         },
         {
-          "text": "범행 동기 나왔나…이 시각 성북경찰서",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008841694&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
+          "text": "전태일·이소선 노동역사 자료 6천875건 'e뮤지엄' 온라인 공개",
+          "link": "https://www.yna.co.kr/view/AKR20261112154400004",
+          "source": "통신사형",
+          "main": "중립",
+          "tags": [
+            "개인형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "“5인 미만은 민사만 해야 하나요”…‘노동 치외법권’에 갇힌 390만명",
+          "link": "https://www.khan.co.kr/article/202611130600041/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "수치형",
+            "책임형"
+          ]
+        },
+        {
+          "text": "경북 동부 공사장 추락 사망사고 증가…고용노동부, 단속 강화",
+          "link": "https://www.yna.co.kr/view/AKR20261112139200053",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
             "단정형",
             "담담형"
-          ]
-        },
-        {
-          "text": "살해된 학교밖 15세 여성…살인범 가족은 '절도 패거리'로 수사",
-          "link": "https://www.yna.co.kr/view/AKR20261111177900004",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "개인형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "성평등장관, '성북구 10대 여성 살해'에 \"반사회적 범죄\"",
-          "link": "https://www.yna.co.kr/view/AKR20261111179500530",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "개인형",
-            "단정형"
           ]
         }
       ]
@@ -152,12 +152,12 @@
       "id": "culture",
       "short": "문화",
       "kicker": "문화 · 새로움과 깊이",
-      "topic": "K-콘텐츠 소식",
+      "topic": "책과 문학 소식",
       "topic_description": "",
       "headlines": [
         {
-          "text": "[스타트UP] “K팝 버추얼 아이돌, 핵심은 음악”…어코드엔터, 글로벌 IP 확장 나서",
-          "link": "https://www.chosun.com/economy/smb-venture/2026/11/12/GY4DIZDEMIYTMYTFHFRGGNZXMU/",
+          "text": "상처 입은 마음에 책과 웃음이 깃드는 곳 [.txt]",
+          "link": "https://www.hani.co.kr/arti/culture/book/1287147.html",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -166,8 +166,8 @@
           ]
         },
         {
-          "text": "K콘텐츠 열광하던 대만, 드라마-애니 함께 만든다",
-          "link": "https://www.donga.com/news/Culture/article/all/20261112/135010263/2",
+          "text": "[새책]여성의 고독: 혼자의 기쁨 外",
+          "link": "https://www.khan.co.kr/article/202611122053005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -176,18 +176,18 @@
           ]
         },
         {
-          "text": "게임 정책·문화 한자리에…지스타서 6개국 심포지엄",
-          "link": "https://www.yna.co.kr/view/AKR20261111116900017",
+          "text": "백석문학상에 윤제림 시인…수상작 '스물다섯살을 반성함'",
+          "link": "https://www.yna.co.kr/view/AKR20261112130000005",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "개인형",
+            "단정형"
           ]
         },
         {
-          "text": "\"한국 예능선 카메라 200대 쓴다\"…넷플릭스가 주목한 제작 방식",
-          "link": "https://www.yna.co.kr/view/AKR20261111079200017",
+          "text": "\"휴대전화 맡기고 책에 몰입해 보세요\"…마포서 '연락두절 독서회'",
+          "link": "https://www.yna.co.kr/view/AKR20261112124000005",
           "source": "통신사형",
           "main": "중립",
           "tags": [
