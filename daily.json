@@ -1,16 +1,26 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "categories": [
     {
       "id": "politics",
       "short": "정치",
       "kicker": "정치 · 제도와 변화",
-      "topic": "대통령 북한",
+      "topic": "대통령 종합",
       "headlines": [
         {
-          "text": "“李가 尹탄핵 반대” “통일교, 김민석 밀어”… 내분 불붙인 최민희 입",
-          "link": "https://www.chosun.com/politics/assembly/2026/11/16/FFBKTY3O7VAMDDDDIKQSJDBETU/",
+          "text": "대통령은 공급 속도전 외쳤는데…3기신도시 남양주, 최대 26개월 밀린다",
+          "link": "https://www.chosun.com/economy/realty/apartment_sales/2026/11/17/GE4TMY3GMRRWCYTEGYYTSY3BGU/",
           "source": "종합지형",
+          "main": "R",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "억지로 눌러놓은 기름값, 청구서 날아왔다…정유사 “손실, 정부 계산의 5배”",
+          "link": "https://www.mk.co.kr/news/economy/12210636",
+          "source": "경제지형",
           "main": "중립",
           "tags": [
             "단정형",
@@ -18,28 +28,18 @@
           ]
         },
         {
-          "text": "유전자교정 규제 해소하려면? 대통령이 나서야[전문가 좌담회(下)]",
-          "link": "https://www.mk.co.kr/news/economy/12209048",
-          "source": "경제지형",
-          "main": "중립",
-          "tags": [
-            "권위형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "미중러 정상외교 막 오른다…북한 변수는?",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846758&plink=RSSLINK&cooper=RSSREADER",
+          "text": "국회 나온 장관 \"나는 못 잡아내요. 나이가 있어서\"",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008848517&plink=RSSLINK&cooper=RSSREADER",
           "source": "방송사형",
           "main": "중립",
           "tags": [
-            "의문형",
+            "개인형",
             "단정형"
           ]
         },
         {
-          "text": "국회 교육위, 수능 사흘 앞 'AI안경 부정행위 대책' 현안보고",
-          "link": "https://www.yna.co.kr/view/AKR20261115042400001",
+          "text": "민주당, 정책의원총회 개최…'관계성 범죄' 대책 논의",
+          "link": "https://www.yna.co.kr/view/AKR20261116155800001",
           "source": "통신사형",
           "main": "중립",
           "tags": [
@@ -47,28 +47,27 @@
             "단정형"
           ]
         }
-      ],
-      "topic_description": ""
+      ]
     },
     {
       "id": "economy",
       "short": "경제",
       "kicker": "경제 · 성장과 균형",
-      "topic": "물가 만원",
+      "topic": "기업 금리",
       "headlines": [
         {
-          "text": "젠슨 황 퇴진에 글로벌 AI 스타트업 투자 ‘비상’… “엔비디아 공백 누가 메우나”",
-          "link": "https://www.chosun.com/economy/tech_it/2026/11/16/6OSLDZB2BJFCNN7JJ3CJK3R5QM/",
+          "text": "신재욱·배광수 대표 앞에 2428억 과징금…NH투자증권 순이익 반토막 나나",
+          "link": "https://www.chosun.com/economy/realty/realestate_finance/2026/11/17/GJSTQYLCGMYTSZBTGNQWEZJSGU/",
           "source": "종합지형",
           "main": "G",
           "tags": [
-            "단정형",
-            "담담형"
+            "수치형",
+            "단정형"
           ]
         },
         {
-          "text": "월가 “젠슨황 빠지면 우리도 발뺀다”…670조 금융구상 근간부터 흔들",
-          "link": "https://www.mk.co.kr/news/world/12209544",
+          "text": "사업 망해 빈손으로 베이징 간 남자…‘이것’ 팔아 연매출 5천억 기업 일궜다",
+          "link": "https://www.mk.co.kr/news/society/12210644",
           "source": "경제지형",
           "main": "중립",
           "tags": [
@@ -77,37 +76,36 @@
           ]
         },
         {
-          "text": "지난달 전월세 물가 1.4%↑…3년 10개월 만에 최대폭",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846774&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
+          "text": "고양시, 경기도 평화경제특구 2차 공모 신청",
+          "link": "https://www.yna.co.kr/view/AKR20261116128600060",
+          "source": "통신사형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "SK디스커버리는 4179억 회수했다는데…대기업 희비 갈리는 PRS",
+          "link": "https://www.chosun.com/economy/industry-company/2026/11/17/GFRDGOJXGNRDONRSMQ4DSYRWGU/",
+          "source": "종합지형",
           "main": "중립",
           "tags": [
             "수치형",
             "단정형"
           ]
-        },
-        {
-          "text": "국힘 \"법적 근거없는 미래대응기금 예산 심사 중단해야\"",
-          "link": "https://www.yna.co.kr/view/AKR20261115036100001",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "책임형",
-            "개인형"
-          ]
         }
-      ],
-      "topic_description": ""
+      ]
     },
     {
       "id": "society",
       "short": "사회",
       "kicker": "사회 · 공감과 논리",
-      "topic": "경찰 광주",
+      "topic": "법원 경찰",
       "headlines": [
         {
-          "text": "[단독]與TF, 새 형소법 40여일만에 ‘경찰 모든 수사기록 검사에 전달’ 검토",
-          "link": "https://www.donga.com/news/Politics/article/all/20261116/135028760/2",
+          "text": "[가봤어요] “소금 1g까지 철저히”…의료·재활·맞춤 식단 다 갖춘 ‘용인 벨포레스트’",
+          "link": "https://www.chosun.com/economy/science/2026/11/17/GA2DOZRSMU3DEZRVGE4DMMTDGM/",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -116,48 +114,9 @@
           ]
         },
         {
-          "text": "“광주 터미널에 폭발물 설치”…경찰 수색 벌이자 20대 2명 자수",
-          "link": "https://www.mk.co.kr/news/society/12209517",
+          "text": "엔비디아 이사회 “젠슨 황 복귀 검토 안 한다”…18만명 청원에도 선 그어",
+          "link": "https://www.mk.co.kr/news/it/12210620",
           "source": "경제지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "새벽 도로서 청소하다 참변…환경미화원 치고 도주",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846021&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "교육위, 내일 'AI안경 부정행위 대책' 현안보고…수능 대책 주목",
-          "link": "https://www.yna.co.kr/view/AKR20261115032200001",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "개인형",
-            "단정형"
-          ]
-        }
-      ],
-      "topic_description": ""
-    },
-    {
-      "id": "culture",
-      "short": "문화",
-      "kicker": "문화 · 새로움과 깊이",
-      "topic": "대책 영화",
-      "headlines": [
-        {
-          "text": "[그 영화 어때] 남은 인생 1년, 600만원에 남자를 사다",
-          "link": "https://www.chosun.com/culture-life/culture_general/2026/11/14/5SNKYPXD55AENPGDQMVPH6UBQI/",
-          "source": "종합지형",
           "main": "중립",
           "tags": [
             "수치형",
@@ -165,18 +124,8 @@
           ]
         },
         {
-          "text": "문화유산·개발 충돌, 7개월 만에 해법…도쿄의 절충 행정",
-          "link": "https://www.mk.co.kr/news/realestate/12209501",
-          "source": "경제지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "또 다른 '수석 합격자' 어떻게 막나…수능 대책 '주목'",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846773&plink=RSSLINK&cooper=RSSREADER",
+          "text": "성범죄 피의자 추격전 끝 '탕탕탕'…경찰 6명 다쳤다",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008848592&plink=RSSLINK&cooper=RSSREADER",
           "source": "방송사형",
           "main": "중립",
           "tags": [
@@ -185,8 +134,8 @@
           ]
         },
         {
-          "text": "與초선모임, 오늘 긴급회의…'최민희 발언 논란' 대응책 논의",
-          "link": "https://www.yna.co.kr/view/AKR20261115038500001",
+          "text": "'국군사관학교 기본계획 수정안' 18일 당정협의",
+          "link": "https://www.yna.co.kr/view/AKR20261116162700504",
           "source": "통신사형",
           "main": "중립",
           "tags": [
@@ -194,8 +143,55 @@
             "단정형"
           ]
         }
-      ],
-      "topic_description": ""
+      ]
+    },
+    {
+      "id": "culture",
+      "short": "문화",
+      "kicker": "문화 · 새로움과 깊이",
+      "topic": "대책 공연",
+      "headlines": [
+        {
+          "text": "“물질적 성장 넘어 인간 존중의 문화 선진국으로”",
+          "link": "https://www.hani.co.kr/arti/economy/economy_general/1287645.html",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "아이돌 공연 때문에 억울하게 숙박 취소?…‘200% 배상’ 받으세요",
+          "link": "https://www.mk.co.kr/news/economy/12210634",
+          "source": "경제지형",
+          "main": "중립",
+          "tags": [
+            "수치형",
+            "원인형"
+          ]
+        },
+        {
+          "text": "와이파이 차단에 전수점검…'AI 부정' 대책 실효성은?",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008848515&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
+          "main": "중립",
+          "tags": [
+            "의문형",
+            "개인형"
+          ]
+        },
+        {
+          "text": "조선 반상기부터 근대 유리병까지…인사도시유적전시관 기획전",
+          "link": "https://www.yna.co.kr/view/AKR20261116145100004",
+          "source": "통신사형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        }
+      ]
     }
   ]
 }
