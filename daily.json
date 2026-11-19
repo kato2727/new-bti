@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "categories": [
     {
       "id": "politics",
       "short": "정치",
       "kicker": "정치 · 제도와 변화",
-      "topic": "정부 수능",
+      "topic": "탄핵 조희대",
       "headlines": [
         {
-          "text": "“AI 규제의 진짜 변수는 연방법 아닌 주정부… 미국 투자 늦어지면 한국 메모리까지 여파”",
-          "link": "https://www.chosun.com/economy/stock-finance/2026/11/19/2CEHAXPIPRGZZAGUNMZ5NESATM/",
+          "text": "尹정부서 뽑혔지만, 李 정부에서 더 잘나가는 장인화 포스코 회장의 생존 비결은",
+          "link": "https://www.chosun.com/economy/realty/realestate_industry/2026/11/20/MZSTEZLEMRSTSN3BHAZTQOJWMU/",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -18,18 +18,18 @@
           ]
         },
         {
-          "text": "이 대통령, 중국 ‘K콘텐츠 최혜국대우’에 “새로운 한중관계 토대”",
-          "link": "https://www.mk.co.kr/news/politics/12212992",
+          "text": "'韓 파기환송'에 뿔난 민주 …\"내란에 면죄부, 조희대 탄핵해야\"",
+          "link": "https://www.mk.co.kr/news/society/12214062",
           "source": "경제지형",
-          "main": "R",
+          "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "책임형",
+            "개인형"
           ]
         },
         {
-          "text": "여당 의원의 황당 대책…\"수험생이 서로 감시\"",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850405&plink=RSSLINK&cooper=RSSREADER",
+          "text": "민주당 분노 속 의총…'조희대 탄핵 추진' 결론",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008854516&plink=RSSLINK&cooper=RSSREADER",
           "source": "방송사형",
           "main": "중립",
           "tags": [
@@ -38,13 +38,13 @@
           ]
         },
         {
-          "text": "전주공소청, 이원택 전북지사 선거법 위반 15시간 조사(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261119002700055",
+          "text": "'민주유공자법' 오늘 국회 본회의 표결…與주도 처리 전망",
+          "link": "https://www.yna.co.kr/view/AKR20261119140100001",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "개인형",
+            "단정형"
           ]
         }
       ]
@@ -53,21 +53,21 @@
       "id": "economy",
       "short": "경제",
       "kicker": "경제 · 성장과 균형",
-      "topic": "투자 서비스",
+      "topic": "하락 주식",
       "headlines": [
         {
-          "text": "‘회사 설립 → 투자 유치’ 순서가 바뀐다... ‘창업 전 창업자’ 찾는 투자사들",
-          "link": "https://www.chosun.com/economy/tech_it/2026/11/19/MZ5DZT2UOZCIHOAGCA2YIRADEA/",
+          "text": "10월 생산자 물가 3개월 만에 하락… 농림수산품 8.3%↓",
+          "link": "https://www.chosun.com/economy/economy_general/2026/11/20/GI3TINTEG44DQMBTGY3DCZTCGA/",
           "source": "종합지형",
-          "main": "G",
+          "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "수치형",
+            "단정형"
           ]
         },
         {
-          "text": "장사 잘했는데 남는 돈이 없다…환율에 당한 상장사, 절반이 3분기 순손실",
-          "link": "https://www.mk.co.kr/news/stock/12213131",
+          "text": "“한국 은행들, 해킹 안당하려면”…‘그 비서’ 너무 믿어선 안된다는데",
+          "link": "https://www.mk.co.kr/news/it/12214134",
           "source": "경제지형",
           "main": "중립",
           "tags": [
@@ -76,22 +76,22 @@
           ]
         },
         {
-          "text": "외통소위,  통일부 예산 與주도 원안 의결…국힘 반발·퇴장",
-          "link": "https://www.yna.co.kr/view/AKR20261118174500001",
-          "source": "통신사형",
+          "text": "수출 1조 달러 새 역사…24시간 HBM 생산 현장",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008854523&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "서사형",
+            "단정형"
           ]
         },
         {
-          "text": "'삼성은 선두 굳히고, 신한은행은 3초의 기적 썼다' LG 94-88 제압, KB스타즈 62-61 역전승",
-          "link": "https://www.chosun.com/sports/basketball/2026/11/19/GUZDMZBYMIYTSMRZMNQTAMBTMI/",
-          "source": "종합지형",
+          "text": "10월 생산자물가 0.1% 하락…사과 29.2%·돼지고기 12.8%↓",
+          "link": "https://www.yna.co.kr/view/AKR20261119157000002",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
-            "개인형",
+            "수치형",
             "단정형"
           ]
         }
@@ -101,11 +101,11 @@
       "id": "society",
       "short": "사회",
       "kicker": "사회 · 공감과 논리",
-      "topic": "경찰청장 경찰",
+      "topic": "취소 경찰",
       "headlines": [
         {
-          "text": "내년 수능부터 선택과목 폐지… 수험생 모두 통합사회-과학 응시",
-          "link": "https://www.donga.com/news/Society/article/all/20261119/135049893/2",
+          "text": "[스타트UP] AI로 반려동물 진단 돕는 ‘메타디엑스’…동물병원 숨은 비용까지 조준",
+          "link": "https://www.chosun.com/economy/smb-venture/2026/11/20/MU4DANZYGIZWGMDEGU4TEZDGHA/",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -114,18 +114,18 @@
           ]
         },
         {
-          "text": "“술 끊고 대중교통 이용”…‘2회 음주운전’ 남태현, 오늘 항소심 선고",
-          "link": "https://www.mk.co.kr/news/society/12212993",
+          "text": "복지포인트 내로남불…직장인은 과세, 공무원은 비과세 이유 ‘황당’",
+          "link": "https://www.mk.co.kr/news/economy/12214136",
           "source": "경제지형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "원인형",
+            "시민형"
           ]
         },
         {
-          "text": "젠슨 황 \"복귀하면 영광\"…이사회 \"안 됩니다\"",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008852543&plink=RSSLINK&cooper=RSSREADER",
+          "text": "'수능날 행사' 돌연 취소…구설수 후 사라진 교육 수장",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008854521&plink=RSSLINK&cooper=RSSREADER",
           "source": "방송사형",
           "main": "중립",
           "tags": [
@@ -134,8 +134,8 @@
           ]
         },
         {
-          "text": "행안위, 인사청문 당일 김종철 경찰청장 후보자 보고서 채택",
-          "link": "https://www.yna.co.kr/view/AKR20261118178751001",
+          "text": "경찰, 김태성 신안군수 동생 체포…공무원 도피 도운 혐의",
+          "link": "https://www.yna.co.kr/view/AKR20261119153500054",
           "source": "통신사형",
           "main": "중립",
           "tags": [
@@ -149,21 +149,21 @@
       "id": "culture",
       "short": "문화",
       "kicker": "문화 · 새로움과 깊이",
-      "topic": "게임 영화",
+      "topic": "책임 미얀마",
       "headlines": [
         {
-          "text": "칸영화제 “파나히 감독 탄압 규탄, 표현의 자유 침해말라”",
-          "link": "https://www.donga.com/news/Culture/article/all/20261119/135050404/2",
+          "text": "5만원 짜리 글씨 한 점에 무너진 ‘문화유산’ 전도사",
+          "link": "https://www.chosun.com/culture-life/cultural-heritage/2026/11/20/TUIBNWVICVBERDI4G4R367PMDU/",
           "source": "종합지형",
-          "main": "N",
+          "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "수치형",
+            "단정형"
           ]
         },
         {
-          "text": "전세계 뒤흔든 K-게임 자존심…펄어비스 ‘붉은사막’ 게임대상 8관왕",
-          "link": "https://www.mk.co.kr/news/it/12212897",
+          "text": "“딸, 수능 수고했어”…수험표만 들고가면 노트북·게임기·뷔페 할인",
+          "link": "https://www.mk.co.kr/news/business/12214138",
           "source": "경제지형",
           "main": "중립",
           "tags": [
@@ -182,8 +182,8 @@
           ]
         },
         {
-          "text": "中 \"한중 2단계 FTA 타결…문화·인터넷 협력 실행계획 마련\"",
-          "link": "https://www.yna.co.kr/view/AKR20261119001600083",
+          "text": "한중 합작영화 '상하이의 별' 주목…한한령 해빙 물꼬 틀까",
+          "link": "https://www.yna.co.kr/view/AKR20261119169400005",
           "source": "통신사형",
           "main": "중립",
           "tags": [
