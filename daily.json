@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "categories": [
     {
       "id": "politics",
@@ -8,8 +8,8 @@
       "topic": "대통령 조희대",
       "headlines": [
         {
-          "text": "中은 푸대접, 美는 무시… 日 다카이치 ‘나 홀로 소파 외교’ 굴욕",
-          "link": "https://www.chosun.com/international/international_general/2026/11/21/GRRWKZTDGM3WCMZZGBSTKYZVGM/",
+          "text": "국힘 “조희대 탄핵하면 이재명 정권 붕괴” 대구서 장외집회",
+          "link": "https://www.hani.co.kr/arti/politics/politics_general/1288441.html",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -18,8 +18,8 @@
           ]
         },
         {
-          "text": "추미애 “조희대는 내란범 사법세탁 공장장…일찍 탄핵했어야”",
-          "link": "https://www.mk.co.kr/news/politics/12214976",
+          "text": "“내년엔 조금 더 좋아질 것”…이재명 대통령, 울산 전통시장서 민생 점검",
+          "link": "https://www.mk.co.kr/news/politics/12215328",
           "source": "경제지형",
           "main": "중립",
           "tags": [
@@ -28,18 +28,18 @@
           ]
         },
         {
-          "text": "나흘 만에 나온 교육장관…\"사퇴하라면 해야죠\"",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856374&plink=RSSLINK&cooper=RSSREADER",
+          "text": "이 대통령 \"신고 포상금, 최대 1억 아닌 최소 1억 원\"",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857093&plink=RSSLINK&cooper=RSSREADER",
           "source": "방송사형",
           "main": "중립",
           "tags": [
-            "책임형",
+            "수치형",
             "개인형"
           ]
         },
         {
-          "text": "李대통령, 대장동 인터뷰 공유…\"공익환수 배임죄면 일반허가는\"",
-          "link": "https://www.yna.co.kr/view/AKR20261120180600001",
+          "text": "이용철 법무장관 후보 청문회 D-2…핵심 쟁점은 '공소취소'",
+          "link": "https://www.yna.co.kr/view/AKR20261120142900004",
           "source": "통신사형",
           "main": "중립",
           "tags": [
@@ -53,46 +53,46 @@
       "id": "economy",
       "short": "경제",
       "kicker": "경제 · 성장과 균형",
-      "topic": "주식 수출",
+      "topic": "서울 만에",
       "headlines": [
         {
-          "text": "스몰캡 알린다던 한국IR협의회… 상폐 위기 시총 300억 미만 기업 리포트 4.7%뿐",
-          "link": "https://www.chosun.com/economy/stock-finance/2026/11/21/HBSWKNDBMIZDGMZTHA2TMN3CGE/",
+          "text": "“서울 무주택자, 결국 경기도로 쫓겨날 것”…부동산 전문가의 경고",
+          "link": "https://www.donga.com/news/Economy/article/all/20261121/135065196/1",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "수치형",
+            "권위형",
             "단정형"
           ]
         },
         {
-          "text": "“주식 어디가 바닥인데요?” 외국인은 이미 탈출…이건 7.4조 샀다는데",
-          "link": "https://www.mk.co.kr/news/stock/12215101",
+          "text": "“주담대 금리 치솟아도 돈 빌릴 곳 없으니”…집단대출 늘며 잔액 증가폭 ‘쑥’",
+          "link": "https://www.mk.co.kr/news/economy/12215366",
           "source": "경제지형",
           "main": "중립",
           "tags": [
-            "수치형",
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "\"전문성\" vs \"예산 낭비\"…2천억 들인 AI 교육 두고 '팽팽'",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857101&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
+          "main": "중립",
+          "tags": [
+            "개인형",
             "단정형"
           ]
         },
         {
-          "text": "K화장품·라면도 날았다…수출 1조 달러 견인",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856384&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "[부동산캘린더] 내주 서울 경희궁 에피트 등 전국서 6천295가구 분양",
-          "link": "https://www.yna.co.kr/view/AKR20261120124100003",
+          "text": "예산소위, '감액 이견'에 지역사랑상품권 심사 일단 보류",
+          "link": "https://www.yna.co.kr/view/AKR20261121030100001",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "개인형",
+            "단정형"
           ]
         }
       ]
@@ -101,11 +101,11 @@
       "id": "society",
       "short": "사회",
       "kicker": "사회 · 공감과 논리",
-      "topic": "경찰 김승원",
+      "topic": "병원 이송",
       "headlines": [
         {
-          "text": "유도 메달리스트-헬기 조종사, 새내기 경찰 되다",
-          "link": "https://www.donga.com/news/People/article/all/20261120/135063932/2",
+          "text": "양양서 스킨스쿠버 40대 남성 호흡곤란…병원 이송",
+          "link": "https://www.donga.com/news/Society/article/all/20261121/135065080/1",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -114,8 +114,8 @@
           ]
         },
         {
-          "text": "종암경찰서, 수능 후 ‘청소년 일탈 방지 캠페인’ 실시…“지속적 선도·보호 활동 펼치겠다”",
-          "link": "https://www.mk.co.kr/news/society/12214912",
+          "text": "생중계 꺼달라고해도 무시하는 유튜버…팝송 틀면 참교육 됩니다 [Book]",
+          "link": "https://www.mk.co.kr/news/culture/12215363",
           "source": "경제지형",
           "main": "중립",
           "tags": [
@@ -124,23 +124,23 @@
           ]
         },
         {
-          "text": "수원중수청, 김승원 '경기도당 회계부정' 의혹 경찰 이첩(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261120135051004",
+          "text": "엄홍길휴먼재단, 네팔 휴먼스쿨 2곳에 교육물품 전달",
+          "link": "https://www.yna.co.kr/view/AKR20261121046500371",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "개인형",
-            "단정형"
+            "단정형",
+            "담담형"
           ]
         },
         {
-          "text": "국힘 “판결엔 불복, 대법원장엔 보복” 릴레이 장외투쟁 여론전",
-          "link": "https://www.donga.com/news/Politics/article/all/20261120/135064151/2",
+          "text": "국토 2차관 “화물열차 탈선 사고 엄중 인식…재발방지 대책 강구”",
+          "link": "https://www.donga.com/news/Economy/article/all/20261121/135064986/1",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "집단형",
-            "단정형"
+            "단정형",
+            "담담형"
           ]
         }
       ]
@@ -149,11 +149,11 @@
       "id": "culture",
       "short": "문화",
       "kicker": "문화 · 새로움과 깊이",
-      "topic": "대책 부정행위",
+      "topic": "영화 대책",
       "headlines": [
         {
-          "text": "[사이언스카페] 영화 마션이 실제로… 달 토양에서 감자 재배",
-          "link": "https://www.chosun.com/economy/science/2026/11/21/MYYWMYRRGBRWENJRGBRDKZLDMI/",
+          "text": "“영화 보며 함께 울고 웃을 때, 암묵적 우정 생기죠” [.txt]",
+          "link": "https://www.hani.co.kr/arti/culture/book/1288450.html",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -162,13 +162,13 @@
           ]
         },
         {
-          "text": "수험생 팽개친 ‘먹튀 논란’ 강사 이도…넷플릭스는 편집 왜 안했나",
-          "link": "https://www.mk.co.kr/news/it/12214982",
+          "text": "고경표 음주운전 속…유재석 “연예인 자숙하기 딱 좋아” 타이밍 절묘하네",
+          "link": "https://www.mk.co.kr/news/culture/12215287",
           "source": "경제지형",
           "main": "중립",
           "tags": [
-            "원인형",
-            "단정형"
+            "단정형",
+            "담담형"
           ]
         },
         {
