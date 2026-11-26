@@ -1,16 +1,15 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "categories": [
     {
       "id": "politics",
       "short": "정치",
       "kicker": "정치 · 제도와 변화",
-      "topic": "탄핵 조희대",
-      "topic_description": "",
+      "topic": "대통령 종합",
       "headlines": [
         {
-          "text": "조희대 탄핵 명분 찾는 與… “범여권 5당 연대 제안”",
-          "link": "https://www.donga.com/news/Politics/article/all/20261126/135092306/2",
+          "text": "與 탄핵연대 딜레마… 조국당 3일 처리 고수에 예산안 차질 우려",
+          "link": "https://www.donga.com/news/Politics/article/all/20261127/135099727/2",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -19,9 +18,19 @@
           ]
         },
         {
-          "text": "\"조희대 탄핵 반대\" 판사들 첫 집단성명…30일 법관회의 분수령(종합)",
-          "link": "https://www.yna.co.kr/view/AKR20261125166500004",
-          "source": "통신사형",
+          "text": "이대통령 “SNS 가장 큰 문제는 과도한 혐오·비방…폭언·욕설 차단”",
+          "link": "https://www.mk.co.kr/news/politics/12219760",
+          "source": "경제지형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "민주당, 법관 집단 반발에 \"탄핵 대상은 조희대 뿐\"",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008865643&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
           "main": "중립",
           "tags": [
             "개인형",
@@ -29,23 +38,13 @@
           ]
         },
         {
-          "text": "조희대 탄핵 역풍 우려에… 與 ‘내란청산 연대’ 재개로 동력확보 나서",
-          "link": "https://www.donga.com/news/Politics/article/all/20261126/135091970/2",
-          "source": "종합지형",
+          "text": "李대통령, 강금실 국정원장 후보자 등 인사청문요청서 재가",
+          "link": "https://www.yna.co.kr/view/AKR20261126186700001",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
             "단정형",
             "담담형"
-          ]
-        },
-        {
-          "text": "조희대 탄핵 추진 이후 첫 판사회의 열려… “재판 이유로 법관 탄핵, 헌법적 가치 훼손”",
-          "link": "https://www.donga.com/news/Society/article/all/20261126/135091968/2",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "원인형",
-            "단정형"
           ]
         }
       ]
@@ -54,46 +53,45 @@
       "id": "economy",
       "short": "경제",
       "kicker": "경제 · 성장과 균형",
-      "topic": "젠슨 코스피",
-      "topic_description": "",
+      "topic": "금리 대출",
       "headlines": [
         {
-          "text": "하루만에 끝난 ‘젠슨 황 효과’, 코스피 전날 상승분 모두 반납",
-          "link": "https://www.donga.com/news/Economy/article/all/20261126/135092002/2",
+          "text": "간단한 디자인, 챗GPT에 맡기자… 어도비·피그마·캔바, ‘정밀 편집’으로 기업 공략",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/27/GRRTMNBWGM3TGY3BMQZGIZBWHA/",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "서사형",
-            "단정형"
+            "단정형",
+            "담담형"
           ]
         },
         {
-          "text": "하루 만에 꺼진 ‘젠슨 황 효과’…코스피 6% 급락, 극한의 널뛰기",
-          "link": "https://www.khan.co.kr/article/202611252121025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "source": "종합지형",
+          "text": "환율, 물가, 마지막은 주가 … 한은 총재가 통화정책에 고려하는 우선 순위",
+          "link": "https://www.mk.co.kr/news/economy/12219637",
+          "source": "경제지형",
           "main": "중립",
           "tags": [
-            "수치형",
-            "단정형"
+            "단정형",
+            "담담형"
           ]
         },
         {
-          "text": "하루천하 ‘젠슨 황 효과’…코스피 4% 급락하며 매도 사이드카",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9KcGFDUk5lM0VUOHVCZ2ZOVUZLcGlNX3poaTczTWdyeGxpWExqNnBxS1dDbjlqdG0weF9Wb2E0VnZZdTMzQzVkVnBORDJ3Y2h5LTRBTDZGOHp6LUxaNmszaG56aXVtVUE?oc=5",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "수치형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "투자 설명회에 웬 조폭?…\"몽땅 날렸다\" 54억 다단계",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008863510&plink=RSSLINK&cooper=RSSREADER",
+          "text": "'고물가 우려' 금리 또 인상…내년 성장률 4.1%로 높여",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008865638&plink=RSSLINK&cooper=RSSREADER",
           "source": "방송사형",
           "main": "G",
           "tags": [
             "수치형",
+            "개인형"
+          ]
+        },
+        {
+          "text": "韓총리 \"상생 성과 작은 기업에도…성과공유제 확대해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20261126186600001",
+          "source": "통신사형",
+          "main": "중립",
+          "tags": [
+            "책임형",
             "개인형"
           ]
         }
@@ -103,13 +101,22 @@
       "id": "society",
       "short": "사회",
       "kicker": "사회 · 공감과 논리",
-      "topic": "어린이 근시",
-      "topic_description": "",
+      "topic": "경찰 신청",
       "headlines": [
         {
-          "text": "“아이들 근시, 병원에만 맡겨선 안 돼”…정부·학교·의료계 뭉친 싱가포르",
-          "link": "https://www.hani.co.kr/arti/hanihealth/medical/1289158.html",
+          "text": "차량 감지해 초록불… 한밤 과속 줄이니 사고율 46%↓",
+          "link": "https://www.donga.com/news/Society/article/all/20261127/135099313/2",
           "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "수치형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "경찰청 차장에 송영호·부산경찰청장은 김병기…치안정감 인사 발령",
+          "link": "https://www.mk.co.kr/news/society/12219794",
+          "source": "경제지형",
           "main": "중립",
           "tags": [
             "단정형",
@@ -117,18 +124,8 @@
           ]
         },
         {
-          "text": "“근시 증가는 공중보건 비상사태”…중국, 학교 숙제도 줄였다",
-          "link": "https://www.hani.co.kr/arti/hanihealth/medical/1289152.html",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "[단독] '노태우 비자금' 사건 피의자로…노재헌 출석 요청",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008863502&plink=RSSLINK&cooper=RSSREADER",
+          "text": "병원 앞 꼼짝 못한 구급차…마라톤에 길 막히자 '꽈당'",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008865648&plink=RSSLINK&cooper=RSSREADER",
           "source": "방송사형",
           "main": "중립",
           "tags": [
@@ -137,13 +134,13 @@
           ]
         },
         {
-          "text": "김민석, 달빛어린이병원 방문…소아 의료체계 개선 방안 논의",
-          "link": "https://www.yna.co.kr/view/AKR20261125183000001",
+          "text": "교육위, 오늘 'AI커닝 방지' 수능 후속조치 대책 보고 청취",
+          "link": "https://www.yna.co.kr/view/AKR20261126157000001",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "개인형",
+            "단정형"
           ]
         }
       ]
@@ -152,12 +149,11 @@
       "id": "culture",
       "short": "문화",
       "kicker": "문화 · 새로움과 깊이",
-      "topic": "호프 작품상에",
-      "topic_description": "",
+      "topic": "책임은 책임",
       "headlines": [
         {
-          "text": "청룡영화 작품상에 ‘호프’... 주연상은 설경구·전도연",
-          "link": "https://www.chosun.com/culture-life/culture_general/2026/11/25/EUJITRT7J5FWRC6B7KRHJBJ3IQ/",
+          "text": "[스타트UP] ‘백룸’ 호러 게임으로 승부…글로벌 시장 도전하는 하이퍼센트",
+          "link": "https://www.chosun.com/economy/smb-venture/2026/11/27/GBSWCZBZGAYTKM3DGVRDKYZUGI/",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -166,33 +162,33 @@
           ]
         },
         {
-          "text": "청룡영화상 작품상에 '호프'…설경구·전도연 남녀주연상 석권",
-          "link": "https://www.yna.co.kr/view/AKR20261125187600005",
+          "text": "민주당 전남광주시당, 국책사업 국비 541억원 증액 건의",
+          "link": "https://www.yna.co.kr/view/AKR20261126185900054",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "개인형",
+            "수치형",
             "단정형"
           ]
         },
         {
-          "text": "청룡영화상 작품상에 '호프'...주연상은 설경구·전도연",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SRlJ1dWZLZmRHS2hwc2xQSC12aktPT3lDOThCM2dmbWZSby1pdjFlN1huVDNsSnhrbTlyclozQUkxdHZwVHFaeUp5cEZ3dFZBYzNwT3hxS0lfdHk5NlE?oc=5",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "개인형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "책장 한칸에 차린 내 책방… ‘공유서점’, 취향을 꽂는다",
-          "link": "https://www.donga.com/news/Culture/article/all/20261126/135091813/2",
+          "text": "[사설] 판사들은 “헌법 훼손”, 친명 중진들은 “책임은 우리에게”",
+          "link": "https://www.chosun.com/opinion/editorial/2026/11/27/A6SOT6V4QFA2XDWBQTLM6IFIJE/",
           "source": "종합지형",
           "main": "중립",
           "tags": [
             "단정형",
             "담담형"
+          ]
+        },
+        {
+          "text": "[알립니다]LG와 함께하는 ‘동아 다문화賞’ 수상자를 발표합니다",
+          "link": "https://www.donga.com/news/People/article/all/20261127/135099499/2",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "결과형",
+            "단정형"
           ]
         }
       ]
