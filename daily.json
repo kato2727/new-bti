@@ -1,50 +1,51 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "categories": [
     {
       "id": "politics",
       "short": "정치",
       "kicker": "정치 · 제도와 변화",
-      "topic": "대통령 종합",
+      "topic": "재산 신고",
+      "topic_description": "",
       "headlines": [
         {
-          "text": "與 탄핵연대 딜레마… 조국당 3일 처리 고수에 예산안 차질 우려",
-          "link": "https://www.donga.com/news/Politics/article/all/20261127/135099727/2",
+          "text": "한준호 행안장관 후보자 재산 6억8천만원 신고",
+          "link": "https://www.hani.co.kr/arti/area/area_general/1289489.html",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "이대통령 “SNS 가장 큰 문제는 과도한 혐오·비방…폭언·욕설 차단”",
-          "link": "https://www.mk.co.kr/news/politics/12219760",
-          "source": "경제지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "민주당, 법관 집단 반발에 \"탄핵 대상은 조희대 뿐\"",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008865643&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
-          "main": "중립",
-          "tags": [
-            "개인형",
+            "수치형",
             "단정형"
           ]
         },
         {
-          "text": "李대통령, 강금실 국정원장 후보자 등 인사청문요청서 재가",
-          "link": "https://www.yna.co.kr/view/AKR20261126186700001",
+          "text": "홍익표 통일장관 후보자, 재산 65억원 신고…'비거주1주택' 지적(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261127131452001",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "수치형",
+            "개인형"
+          ]
+        },
+        {
+          "text": "임웅순 외교장관 후보자 재산 20억 신고…석사장교로 병역 마쳐",
+          "link": "https://www.hani.co.kr/arti/politics/politics_general/1289486.html",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "수치형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "홍익표 통일장관 후보자, 재산 64억9천만원 신고…‘비거주 1주택’ 논란",
+          "link": "https://www.hani.co.kr/arti/politics/politics_general/1289485.html",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "수치형",
+            "단정형"
           ]
         }
       ]
@@ -53,21 +54,21 @@
       "id": "economy",
       "short": "경제",
       "kicker": "경제 · 성장과 균형",
-      "topic": "금리 대출",
+      "topic": "금리 종합",
       "headlines": [
         {
-          "text": "간단한 디자인, 챗GPT에 맡기자… 어도비·피그마·캔바, ‘정밀 편집’으로 기업 공략",
-          "link": "https://www.chosun.com/economy/tech_it/2026/11/27/GRRTMNBWGM3TGY3BMQZGIZBWHA/",
+          "text": "[비즈톡톡] 앤트로픽 몸값, 오픈AI 추월한 이유는… 코딩 AI 내세워 기업용 시장 선점",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/28/MU3DOMRRGVSGMMRYGQ2TCMRVG4/",
           "source": "종합지형",
           "main": "중립",
           "tags": [
-            "단정형",
-            "담담형"
+            "원인형",
+            "단정형"
           ]
         },
         {
-          "text": "환율, 물가, 마지막은 주가 … 한은 총재가 통화정책에 고려하는 우선 순위",
-          "link": "https://www.mk.co.kr/news/economy/12219637",
+          "text": "그들이 지갑을 열면 세계 경제가 ‘들썩’ … 블프에 담긴 비밀",
+          "link": "https://www.mk.co.kr/news/economy/12220288",
           "source": "경제지형",
           "main": "중립",
           "tags": [
@@ -76,18 +77,66 @@
           ]
         },
         {
-          "text": "'고물가 우려' 금리 또 인상…내년 성장률 4.1%로 높여",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008865638&plink=RSSLINK&cooper=RSSREADER",
+          "text": "[단독] '배우자 주식 백지신탁' 결정에 \"관련성 없다\" 소송",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867272&plink=RSSLINK&cooper=RSSREADER",
           "source": "방송사형",
-          "main": "G",
+          "main": "중립",
           "tags": [
-            "수치형",
+            "결과형",
             "개인형"
           ]
         },
         {
-          "text": "韓총리 \"상생 성과 작은 기업에도…성과공유제 확대해야\"",
-          "link": "https://www.yna.co.kr/view/AKR20261126186600001",
+          "text": "홍익표, '직무관련성 판정' 주식 처분 피하려 소송했다 패소",
+          "link": "https://www.yna.co.kr/view/AKR20261127170000504",
+          "source": "통신사형",
+          "main": "중립",
+          "tags": [
+            "개인형",
+            "단정형"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "society",
+      "short": "사회",
+      "kicker": "사회 · 공감과 논리",
+      "topic": "병원 학교",
+      "headlines": [
+        {
+          "text": "“집, 섬, 구급차… 환자 있는 곳이 바로 병원!”",
+          "link": "https://www.donga.com/news/It/article/all/20261127/135105400/2",
+          "source": "종합지형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
+          ]
+        },
+        {
+          "text": "의료관광 7만5천명에 조선팰리스까지 … 외국인 지출 1조 돌파한 부산 [부산병 유발자2]",
+          "link": "https://www.mk.co.kr/news/realestate/12220285",
+          "source": "경제지형",
+          "main": "중립",
+          "tags": [
+            "수치형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "[단독] \"직무 관련성 없다\"던 홍익표…법원 판단은 정반대? (풀영상)",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867322&plink=RSSLINK&cooper=RSSREADER",
+          "source": "방송사형",
+          "main": "중립",
+          "tags": [
+            "개인형",
+            "단정형"
+          ]
+        },
+        {
+          "text": "사회대개혁위원장 \"삶 여전히 팍팍…불평등해소·민생집중 필요\"",
+          "link": "https://www.yna.co.kr/view/AKR20261127132100001",
           "source": "통신사형",
           "main": "중립",
           "tags": [
@@ -98,62 +147,14 @@
       ]
     },
     {
-      "id": "society",
-      "short": "사회",
-      "kicker": "사회 · 공감과 논리",
-      "topic": "경찰 신청",
-      "headlines": [
-        {
-          "text": "차량 감지해 초록불… 한밤 과속 줄이니 사고율 46%↓",
-          "link": "https://www.donga.com/news/Society/article/all/20261127/135099313/2",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
-            "수치형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "경찰청 차장에 송영호·부산경찰청장은 김병기…치안정감 인사 발령",
-          "link": "https://www.mk.co.kr/news/society/12219794",
-          "source": "경제지형",
-          "main": "중립",
-          "tags": [
-            "단정형",
-            "담담형"
-          ]
-        },
-        {
-          "text": "병원 앞 꼼짝 못한 구급차…마라톤에 길 막히자 '꽈당'",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008865648&plink=RSSLINK&cooper=RSSREADER",
-          "source": "방송사형",
-          "main": "중립",
-          "tags": [
-            "개인형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "교육위, 오늘 'AI커닝 방지' 수능 후속조치 대책 보고 청취",
-          "link": "https://www.yna.co.kr/view/AKR20261126157000001",
-          "source": "통신사형",
-          "main": "중립",
-          "tags": [
-            "개인형",
-            "단정형"
-          ]
-        }
-      ]
-    },
-    {
       "id": "culture",
       "short": "문화",
       "kicker": "문화 · 새로움과 깊이",
-      "topic": "책임은 책임",
+      "topic": "세운 구역부터",
       "headlines": [
         {
-          "text": "[스타트UP] ‘백룸’ 호러 게임으로 승부…글로벌 시장 도전하는 하이퍼센트",
-          "link": "https://www.chosun.com/economy/smb-venture/2026/11/27/GBSWCZBZGAYTKM3DGVRDKYZUGI/",
+          "text": "세운4구역부터 DDP까지…‘문화유산 보존’ 놓고 서울시·국가유산청 잇따라 충돌",
+          "link": "https://www.khan.co.kr/article/202611271709001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
           "source": "종합지형",
           "main": "중립",
           "tags": [
@@ -162,33 +163,33 @@
           ]
         },
         {
-          "text": "민주당 전남광주시당, 국책사업 국비 541억원 증액 건의",
-          "link": "https://www.yna.co.kr/view/AKR20261126185900054",
+          "text": "한국문학상에 안혜경·홍금자·권갑하 등 5명",
+          "link": "https://www.yna.co.kr/view/AKR20261127154300005",
           "source": "통신사형",
           "main": "중립",
           "tags": [
-            "수치형",
-            "단정형"
-          ]
-        },
-        {
-          "text": "[사설] 판사들은 “헌법 훼손”, 친명 중진들은 “책임은 우리에게”",
-          "link": "https://www.chosun.com/opinion/editorial/2026/11/27/A6SOT6V4QFA2XDWBQTLM6IFIJE/",
-          "source": "종합지형",
-          "main": "중립",
-          "tags": [
             "단정형",
             "담담형"
           ]
         },
         {
-          "text": "[알립니다]LG와 함께하는 ‘동아 다문화賞’ 수상자를 발표합니다",
-          "link": "https://www.donga.com/news/People/article/all/20261127/135099499/2",
-          "source": "종합지형",
+          "text": "[곡성소식] '어르신들의 인생이야기' 열 번째 책 출간",
+          "link": "https://www.yna.co.kr/view/AKR20261127151300054",
+          "source": "통신사형",
           "main": "중립",
           "tags": [
-            "결과형",
-            "단정형"
+            "개인형",
+            "서사형"
+          ]
+        },
+        {
+          "text": "남도국악원, 28일 올해 토요상설 마지막 공연",
+          "link": "https://www.yna.co.kr/view/AKR20261124146900054",
+          "source": "통신사형",
+          "main": "중립",
+          "tags": [
+            "단정형",
+            "담담형"
           ]
         }
       ]
